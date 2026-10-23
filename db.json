@@ -1,1215 +1,702 @@
 {
-  "foods": [
-    {
-      "id": "1",
-      "name": "Pani Puri",
-      "rating": 4.5,
-      "category": "Street Food",
-      "description": "Crispy puris filled with spicy flavored water, potatoes, and tangy chutney.",
-      "imageUrl": "https://placehold.co/600x400?text=Pani+Puri"
-    },
-    {
-      "id": "2",
-      "name": "Dahi Papdi Chaat",
-      "rating": 4.2,
-      "category": "Chaat",
-      "description": "Crispy papdi topped with yogurt, chutneys, spices, and sev.",
-      "imageUrl": "https://placehold.co/600x400?text=Dahi+Papdi+Chaat"
-    },
-    {
-      "id": "3",
-      "name": "Dahi Wada",
-      "rating": 4.3,
-      "category": "Chaat",
-      "description": "Soft lentil dumplings soaked in yogurt and topped with spices.",
-      "imageUrl": "https://placehold.co/600x400?text=Dahi+Wada"
-    },
-    {
-      "id": "4",
-      "name": "Aloo Tikki Chole",
-      "rating": 4.1,
-      "category": "North Indian",
-      "description": "Crispy potato patties served with chickpea curry and chutneys.",
-      "imageUrl": "https://placehold.co/600x400?text=Aloo+Tikki+Chole"
-    },
-    {
-      "id": "5",
-      "name": "Raj Kachori",
-      "rating": 4.4,
-      "category": "Chaat",
-      "description": "A large crispy kachori filled with potatoes, lentils, yogurt, and chutneys.",
-      "imageUrl": "https://placehold.co/600x400?text=Raj+Kachori"
-    },
-    {
-      "id": "6",
-      "name": "Samosa",
-      "rating": 4.3,
-      "category": "Snacks",
-      "description": "Crispy pastry filled with spiced potatoes and peas.",
-      "imageUrl": "https://placehold.co/600x400?text=Samosa"
-    },
-    {
-      "id": "7",
-      "name": "Kachori",
-      "rating": 4.1,
-      "category": "Snacks",
-      "description": "Flaky fried pastry filled with spiced lentils.",
-      "imageUrl": "https://placehold.co/600x400?text=Kachori"
-    },
-    {
-      "id": "8",
-      "name": "Pav Bhaji",
-      "rating": 4.6,
-      "category": "Street Food",
-      "description": "Buttery pav served with mashed vegetable curry.",
-      "imageUrl": "https://placehold.co/600x400?text=Pav+Bhaji"
-    },
-    {
-      "id": "9",
-      "name": "Vada Pav",
-      "rating": 4.4,
-      "category": "Street Food",
-      "description": "Spiced potato fritter served inside a soft bun with chutneys.",
-      "imageUrl": "https://placehold.co/600x400?text=Vada+Pav"
-    },
-    {
-      "id": "10",
-      "name": "Bhel Puri",
-      "rating": 4.2,
-      "category": "Chaat",
-      "description": "Puffed rice mixed with vegetables, chutneys, and crunchy sev.",
-      "imageUrl": "https://placehold.co/600x400?text=Bhel+Puri"
-    },
-    {
-      "id": "11",
-      "name": "Sev Puri",
-      "rating": 4.2,
-      "category": "Chaat",
-      "description": "Crisp puris topped with potatoes, chutneys, onions, and sev.",
-      "imageUrl": "https://placehold.co/600x400?text=Sev+Puri"
-    },
-    {
-      "id": "12",
-      "name": "Aloo Chaat",
-      "rating": 4.0,
-      "category": "Street Food",
-      "description": "Crispy potato pieces tossed with tangy spices and chutney.",
-      "imageUrl": "https://placehold.co/600x400?text=Aloo+Chaat"
-    },
-    {
-      "id": "13",
-      "name": "Chole Bhature",
-      "rating": 4.6,
-      "category": "North Indian",
-      "description": "Spicy chickpea curry served with fluffy fried bread.",
-      "imageUrl": "https://placehold.co/600x400?text=Chole+Bhature"
-    },
-    {
-      "id": "14",
-      "name": "Chole Kulche",
-      "rating": 4.3,
-      "category": "North Indian",
-      "description": "Spiced chickpeas served with soft kulcha bread.",
-      "imageUrl": "https://placehold.co/600x400?text=Chole+Kulche"
-    },
-    {
-      "id": "15",
-      "name": "Paneer Tikka",
-      "rating": 4.5,
-      "category": "North Indian",
-      "description": "Marinated paneer cubes grilled with peppers and spices.",
-      "imageUrl": "https://placehold.co/600x400?text=Paneer+Tikka"
-    },
-    {
-      "id": "16",
-      "name": "Paneer Butter Masala",
-      "rating": 4.6,
-      "category": "North Indian",
-      "description": "Paneer cubes cooked in a creamy tomato and butter gravy.",
-      "imageUrl": "https://placehold.co/600x400?text=Paneer+Butter+Masala"
-    },
-    {
-      "id": "17",
-      "name": "Palak Paneer",
-      "rating": 4.3,
-      "category": "North Indian",
-      "description": "Paneer cooked in a smooth spinach gravy.",
-      "imageUrl": "https://placehold.co/600x400?text=Palak+Paneer"
-    },
-    {
-      "id": "18",
-      "name": "Shahi Paneer",
-      "rating": 4.4,
-      "category": "North Indian",
-      "description": "Paneer simmered in a rich, mildly sweet creamy gravy.",
-      "imageUrl": "https://placehold.co/600x400?text=Shahi+Paneer"
-    },
-    {
-      "id": "19",
-      "name": "Dal Makhani",
-      "rating": 4.5,
-      "category": "North Indian",
-      "description": "Slow-cooked black lentils in a creamy buttery sauce.",
-      "imageUrl": "https://placehold.co/600x400?text=Dal+Makhani"
-    },
-    {
-      "id": "20",
-      "name": "Dal Tadka",
-      "rating": 4.2,
-      "category": "North Indian",
-      "description": "Yellow lentils finished with a tempering of spices and herbs.",
-      "imageUrl": "https://placehold.co/600x400?text=Dal+Tadka"
-    },
-    {
-      "id": "21",
-      "name": "Rajma Chawal",
-      "rating": 4.5,
-      "category": "North Indian",
-      "description": "Kidney bean curry served with steamed rice.",
-      "imageUrl": "https://placehold.co/600x400?text=Rajma+Chawal"
-    },
-    {
-      "id": "22",
-      "name": "Kadhi Pakora",
-      "rating": 4.1,
-      "category": "North Indian",
-      "description": "Yogurt-based curry with gram-flour fritters.",
-      "imageUrl": "https://placehold.co/600x400?text=Kadhi+Pakora"
-    },
-    {
-      "id": "23",
-      "name": "Aloo Paratha",
-      "rating": 4.4,
-      "category": "Breakfast",
-      "description": "Flatbread stuffed with spiced mashed potatoes.",
-      "imageUrl": "https://placehold.co/600x400?text=Aloo+Paratha"
-    },
-    {
-      "id": "24",
-      "name": "Gobi Paratha",
-      "rating": 4.2,
-      "category": "Breakfast",
-      "description": "Flatbread stuffed with seasoned grated cauliflower.",
-      "imageUrl": "https://placehold.co/600x400?text=Gobi+Paratha"
-    },
-    {
-      "id": "25",
-      "name": "Paneer Paratha",
-      "rating": 4.5,
-      "category": "Breakfast",
-      "description": "Flatbread filled with spiced paneer.",
-      "imageUrl": "https://placehold.co/600x400?text=Paneer+Paratha"
-    },
-    {
-      "id": "26",
-      "name": "Masala Dosa",
-      "rating": 4.6,
-      "category": "South Indian",
-      "description": "Crisp dosa filled with spiced potato masala.",
-      "imageUrl": "https://placehold.co/600x400?text=Masala+Dosa"
-    },
-    {
-      "id": "27",
-      "name": "Plain Dosa",
-      "rating": 4.3,
-      "category": "South Indian",
-      "description": "Thin, crispy fermented rice and lentil crepe.",
-      "imageUrl": "https://placehold.co/600x400?text=Plain+Dosa"
-    },
-    {
-      "id": "28",
-      "name": "Mysore Masala Dosa",
-      "rating": 4.5,
-      "category": "South Indian",
-      "description": "Crispy dosa spread with spicy chutney and potato filling.",
-      "imageUrl": "https://placehold.co/600x400?text=Mysore+Masala+Dosa"
-    },
-    {
-      "id": "29",
-      "name": "Idli Sambar",
-      "rating": 4.4,
-      "category": "South Indian",
-      "description": "Steamed rice cakes served with lentil sambar.",
-      "imageUrl": "https://placehold.co/600x400?text=Idli+Sambar"
-    },
-    {
-      "id": "30",
-      "name": "Medu Vada",
-      "rating": 4.3,
-      "category": "South Indian",
-      "description": "Crispy lentil doughnuts with a soft center.",
-      "imageUrl": "https://placehold.co/600x400?text=Medu+Vada"
-    },
-    {
-      "id": "31",
-      "name": "Pongal",
-      "rating": 4.2,
-      "category": "South Indian",
-      "description": "Comforting rice and lentil dish seasoned with pepper and cumin.",
-      "imageUrl": "https://placehold.co/600x400?text=Pongal"
-    },
-    {
-      "id": "32",
-      "name": "Upma",
-      "rating": 4.0,
-      "category": "Breakfast",
-      "description": "Savory semolina cooked with vegetables and spices.",
-      "imageUrl": "https://placehold.co/600x400?text=Upma"
-    },
-    {
-      "id": "33",
-      "name": "Uttapam",
-      "rating": 4.2,
-      "category": "South Indian",
-      "description": "Thick savory pancake topped with onions and vegetables.",
-      "imageUrl": "https://placehold.co/600x400?text=Uttapam"
-    },
-    {
-      "id": "34",
-      "name": "Onion Rava Dosa",
-      "rating": 4.3,
-      "category": "South Indian",
-      "description": "Thin semolina dosa topped with onions and green chilies.",
-      "imageUrl": "https://placehold.co/600x400?text=Onion+Rava+Dosa"
-    },
-    {
-      "id": "35",
-      "name": "Lemon Rice",
-      "rating": 4.1,
-      "category": "South Indian",
-      "description": "Rice tossed with lemon juice, turmeric, peanuts, and curry leaves.",
-      "imageUrl": "https://placehold.co/600x400?text=Lemon+Rice"
-    },
-    {
-      "id": "36",
-      "name": "Curd Rice",
-      "rating": 4.3,
-      "category": "South Indian",
-      "description": "Rice mixed with yogurt and tempered spices.",
-      "imageUrl": "https://placehold.co/600x400?text=Curd+Rice"
-    },
-    {
-      "id": "37",
-      "name": "Veg Biryani",
-      "rating": 4.5,
-      "category": "Rice",
-      "description": "Fragrant basmati rice cooked with vegetables and spices.",
-      "imageUrl": "https://placehold.co/600x400?text=Veg+Biryani"
-    },
-    {
-      "id": "38",
-      "name": "Hyderabadi Dum Biryani",
-      "rating": 4.7,
-      "category": "Rice",
-      "description": "Aromatic layered rice cooked dum-style with traditional spices.",
-      "imageUrl": "https://placehold.co/600x400?text=Hyderabadi+Dum+Biryani"
-    },
-    {
-      "id": "39",
-      "name": "Jeera Rice",
-      "rating": 4.1,
-      "category": "Rice",
-      "description": "Steamed rice tempered with cumin seeds.",
-      "imageUrl": "https://placehold.co/600x400?text=Jeera+Rice"
-    },
-    {
-      "id": "40",
-      "name": "Vegetable Pulao",
-      "rating": 4.2,
-      "category": "Rice",
-      "description": "Lightly spiced rice cooked with mixed vegetables.",
-      "imageUrl": "https://placehold.co/600x400?text=Vegetable+Pulao"
-    },
-    {
-      "id": "41",
-      "name": "Veg Fried Rice",
-      "rating": 4.3,
-      "category": "Chinese",
-      "description": "Stir-fried rice with vegetables, garlic, and soy sauce.",
-      "imageUrl": "https://placehold.co/600x400?text=Veg+Fried+Rice"
-    },
-    {
-      "id": "42",
-      "name": "Schezwan Fried Rice",
-      "rating": 4.4,
-      "category": "Chinese",
-      "description": "Fried rice tossed with spicy Schezwan sauce.",
-      "imageUrl": "https://placehold.co/600x400?text=Schezwan+Fried+Rice"
-    },
-    {
-      "id": "43",
-      "name": "Hakka Noodles",
-      "rating": 4.2,
-      "category": "Chinese",
-      "description": "Stir-fried noodles with vegetables and savory sauces.",
-      "imageUrl": "https://placehold.co/600x400?text=Hakka+Noodles"
-    },
-    {
-      "id": "44",
-      "name": "Chilli Paneer",
-      "rating": 4.4,
-      "category": "Chinese",
-      "description": "Paneer tossed with peppers, onions, and spicy Indo-Chinese sauce.",
-      "imageUrl": "https://placehold.co/600x400?text=Chilli+Paneer"
-    },
-    {
-      "id": "45",
-      "name": "Gobi Manchurian",
-      "rating": 4.3,
-      "category": "Chinese",
-      "description": "Crispy cauliflower tossed in tangy Indo-Chinese sauce.",
-      "imageUrl": "https://placehold.co/600x400?text=Gobi+Manchurian"
-    },
-    {
-      "id": "46",
-      "name": "Veg Manchurian",
-      "rating": 4.2,
-      "category": "Chinese",
-      "description": "Vegetable dumplings coated in a savory, tangy sauce.",
-      "imageUrl": "https://placehold.co/600x400?text=Veg+Manchurian"
-    },
-    {
-      "id": "47",
-      "name": "Margherita Pizza",
-      "rating": 4.4,
-      "category": "Italian",
-      "description": "Pizza topped with tomato sauce, mozzarella, and basil.",
-      "imageUrl": "https://placehold.co/600x400?text=Margherita+Pizza"
-    },
-    {
-      "id": "48",
-      "name": "Farmhouse Pizza",
-      "rating": 4.5,
-      "category": "Italian",
-      "description": "Pizza loaded with onions, peppers, tomatoes, and cheese.",
-      "imageUrl": "https://placehold.co/600x400?text=Farmhouse+Pizza"
-    },
-    {
-      "id": "49",
-      "name": "Veggie Burger",
-      "rating": 4.2,
-      "category": "Fast Food",
-      "description": "Vegetable patty served in a bun with lettuce and sauce.",
-      "imageUrl": "https://placehold.co/600x400?text=Veggie+Burger"
-    },
-    {
-      "id": "50",
-      "name": "French Fries",
-      "rating": 4.1,
-      "category": "Fast Food",
-      "description": "Golden fried potato sticks seasoned with salt.",
-      "imageUrl": "https://placehold.co/600x400?text=French+Fries"
-    },
-    {
-      "id": "51",
-      "name": "Grilled Cheese Sandwich",
-      "rating": 4.3,
-      "category": "Fast Food",
-      "description": "Toasted bread filled with melted cheese.",
-      "imageUrl": "https://placehold.co/600x400?text=Grilled+Cheese+Sandwich"
-    },
-    {
-      "id": "52",
-      "name": "Veg Club Sandwich",
-      "rating": 4.2,
-      "category": "Fast Food",
-      "description": "Layered sandwich with vegetables, cheese, and sauces.",
-      "imageUrl": "https://placehold.co/600x400?text=Veg+Club+Sandwich"
-    },
-    {
-      "id": "53",
-      "name": "White Sauce Pasta",
-      "rating": 4.3,
-      "category": "Italian",
-      "description": "Pasta coated in a creamy white sauce.",
-      "imageUrl": "https://placehold.co/600x400?text=White+Sauce+Pasta"
-    },
-    {
-      "id": "54",
-      "name": "Red Sauce Pasta",
-      "rating": 4.4,
-      "category": "Italian",
-      "description": "Pasta tossed in a tangy tomato-based sauce.",
-      "imageUrl": "https://placehold.co/600x400?text=Red+Sauce+Pasta"
-    },
-    {
-      "id": "55",
-      "name": "Garlic Bread",
-      "rating": 4.2,
-      "category": "Italian",
-      "description": "Toasted bread seasoned with garlic, herbs, and butter.",
-      "imageUrl": "https://placehold.co/600x400?text=Garlic+Bread"
-    },
-    {
-      "id": "56",
-      "name": "Spring Rolls",
-      "rating": 4.1,
-      "category": "Chinese",
-      "description": "Crispy rolls filled with seasoned vegetables.",
-      "imageUrl": "https://placehold.co/600x400?text=Spring+Rolls"
-    },
-    {
-      "id": "57",
-      "name": "Veg Momos",
-      "rating": 4.4,
-      "category": "Tibetan",
-      "description": "Steamed dumplings filled with vegetables and served with chutney.",
-      "imageUrl": "https://placehold.co/600x400?text=Veg+Momos"
-    },
-    {
-      "id": "58",
-      "name": "Fried Momos",
-      "rating": 4.3,
-      "category": "Tibetan",
-      "description": "Dumplings fried until crisp and served with spicy dip.",
-      "imageUrl": "https://placehold.co/600x400?text=Fried+Momos"
-    },
-    {
-      "id": "59",
-      "name": "Tomato Soup",
-      "rating": 4.0,
-      "category": "Soup",
-      "description": "Warm tomato soup seasoned with herbs and pepper.",
-      "imageUrl": "https://placehold.co/600x400?text=Tomato+Soup"
-    },
-    {
-      "id": "60",
-      "name": "Sweet Corn Soup",
-      "rating": 4.1,
-      "category": "Soup",
-      "description": "Mild soup made with sweet corn and vegetables.",
-      "imageUrl": "https://placehold.co/600x400?text=Sweet+Corn+Soup"
-    },
-    {
-      "id": "61",
-      "name": "Hot and Sour Soup",
-      "rating": 4.2,
-      "category": "Soup",
-      "description": "Spicy and tangy soup with vegetables.",
-      "imageUrl": "https://placehold.co/600x400?text=Hot+and+Sour+Soup"
-    },
-    {
-      "id": "62",
-      "name": "Gulab Jamun",
-      "rating": 4.6,
-      "category": "Dessert",
-      "description": "Soft milk-solid dumplings soaked in sugar syrup.",
-      "imageUrl": "https://placehold.co/600x400?text=Gulab+Jamun"
-    },
-    {
-      "id": "63",
-      "name": "Rasgulla",
-      "rating": 4.4,
-      "category": "Dessert",
-      "description": "Soft cottage-cheese balls soaked in light sugar syrup.",
-      "imageUrl": "https://placehold.co/600x400?text=Rasgulla"
-    },
-    {
-      "id": "64",
-      "name": "Jalebi",
-      "rating": 4.5,
-      "category": "Dessert",
-      "description": "Crispy spiral sweets soaked in saffron sugar syrup.",
-      "imageUrl": "https://placehold.co/600x400?text=Jalebi"
-    },
-    {
-      "id": "65",
-      "name": "Kheer",
-      "rating": 4.3,
-      "category": "Dessert",
-      "description": "Creamy rice pudding flavored with cardamom.",
-      "imageUrl": "https://placehold.co/600x400?text=Kheer"
-    },
-    {
-      "id": "66",
-      "name": "Gajar Ka Halwa",
-      "rating": 4.5,
-      "category": "Dessert",
-      "description": "Slow-cooked grated carrots with milk, sugar, and nuts.",
-      "imageUrl": "https://placehold.co/600x400?text=Gajar+Ka+Halwa"
-    },
-    {
-      "id": "67",
-      "name": "Rasmalai",
-      "rating": 4.6,
-      "category": "Dessert",
-      "description": "Soft cheese patties served in sweetened cardamom milk.",
-      "imageUrl": "https://placehold.co/600x400?text=Rasmalai"
-    },
-    {
-      "id": "68",
-      "name": "Kulfi",
-      "rating": 4.4,
-      "category": "Dessert",
-      "description": "Traditional dense frozen dessert flavored with milk and cardamom.",
-      "imageUrl": "https://placehold.co/600x400?text=Kulfi"
-    },
-    {
-      "id": "69",
-      "name": "Chocolate Brownie",
-      "rating": 4.3,
-      "category": "Dessert",
-      "description": "Rich chocolate baked dessert with a fudgy texture.",
-      "imageUrl": "https://placehold.co/600x400?text=Chocolate+Brownie"
-    },
-    {
-      "id": "70",
-      "name": "Vanilla Ice Cream",
-      "rating": 4.2,
-      "category": "Dessert",
-      "description": "Classic creamy vanilla-flavored frozen dessert.",
-      "imageUrl": "https://placehold.co/600x400?text=Vanilla+Ice+Cream"
-    },
-    {
-      "id": "71",
-      "name": "Mango Lassi",
-      "rating": 4.4,
-      "category": "Beverage",
-      "description": "Yogurt-based drink blended with ripe mango.",
-      "imageUrl": "https://placehold.co/600x400?text=Mango+Lassi"
-    },
-    {
-      "id": "72",
-      "name": "Sweet Lassi",
-      "rating": 4.2,
-      "category": "Beverage",
-      "description": "Refreshing sweetened yogurt drink.",
-      "imageUrl": "https://placehold.co/600x400?text=Sweet+Lassi"
-    },
-    {
-      "id": "73",
-      "name": "Masala Chai",
-      "rating": 4.5,
-      "category": "Beverage",
-      "description": "Indian tea brewed with milk and aromatic spices.",
-      "imageUrl": "https://placehold.co/600x400?text=Masala+Chai"
-    },
-    {
-      "id": "74",
-      "name": "Cold Coffee",
-      "rating": 4.3,
-      "category": "Beverage",
-      "description": "Chilled coffee blended with milk and sugar.",
-      "imageUrl": "https://placehold.co/600x400?text=Cold+Coffee"
-    },
-    {
-      "id": "75",
-      "name": "Fresh Lime Soda",
-      "rating": 4.1,
-      "category": "Beverage",
-      "description": "Sparkling lime drink served sweet or salted.",
-      "imageUrl": "https://placehold.co/600x400?text=Fresh+Lime+Soda"
-    }
-  ],
-
   "restaurants": [
     {
       "id": "1",
       "name": "Spice Garden",
       "rating": 4.5,
       "category": "Indian",
-      "description": "Casual restaurant serving flavorful North and South Indian meals.",
-      "imageUrl": "https://placehold.co/600x400?text=Spice+Garden"
+      "description": "Authentic North Indian curries and tandoori specials.",
+      "imageUrl": "https://placehold.co/600x400/171717/F97316?text=Spice+Garden"
     },
     {
       "id": "2",
-      "name": "Tandoori Tales",
+      "name": "Dosa Junction",
       "rating": 4.4,
-      "category": "North Indian",
-      "description": "Restaurant specializing in tandoori starters, curries, and fresh breads.",
-      "imageUrl": "https://placehold.co/600x400?text=Tandoori+Tales"
+      "category": "South Indian",
+      "description": "South Indian favorites including dosas, idlis, vadas, and filter coffee.",
+      "imageUrl": "https://placehold.co/600x400/171717/F97316?text=Dosa+Junction"
     },
     {
       "id": "3",
-      "name": "Dosa Junction",
-      "rating": 4.3,
-      "category": "South Indian",
-      "description": "Popular-style eatery serving dosas, idlis, vadas, and filter coffee.",
-      "imageUrl": "https://placehold.co/600x400?text=Dosa+Junction"
+      "name": "Biryani Boulevard",
+      "rating": 4.7,
+      "category": "Biryani",
+      "description": "Aromatic biryanis and flavorful rice dishes made with traditional spices.",
+      "imageUrl": "https://placehold.co/600x400/171717/F97316?text=Biryani+Boulevard"
     },
     {
       "id": "4",
-      "name": "Andhra Spice House",
-      "rating": 4.6,
-      "category": "Andhra",
-      "description": "Traditional Andhra meals with bold spices, pickles, and regional specialties.",
-      "imageUrl": "https://placehold.co/600x400?text=Andhra+Spice+House"
+      "name": "Wok Express",
+      "rating": 4.2,
+      "category": "Chinese",
+      "description": "Indo-Chinese noodles, fried rice, and sizzling starters.",
+      "imageUrl": "https://placehold.co/600x400/171717/F97316?text=Wok+Express"
     },
     {
       "id": "5",
-      "name": "Coastal Curry",
-      "rating": 4.4,
-      "category": "Seafood",
-      "description": "Coastal-inspired restaurant serving seafood and coconut-based curries.",
-      "imageUrl": "https://placehold.co/600x400?text=Coastal+Curry"
+      "name": "The Pizza Oven",
+      "rating": 4.3,
+      "category": "Italian",
+      "description": "Freshly baked pizzas, pasta, garlic bread, and Italian-inspired meals.",
+      "imageUrl": "https://placehold.co/600x400/171717/F97316?text=The+Pizza+Oven"
     },
     {
       "id": "6",
-      "name": "Biryani Boulevard",
-      "rating": 4.6,
-      "category": "Biryani",
-      "description": "Restaurant focused on aromatic biryanis and classic rice dishes.",
-      "imageUrl": "https://placehold.co/600x400?text=Biryani+Boulevard"
+      "name": "Burger Barn",
+      "rating": 4.1,
+      "category": "Fast Food",
+      "description": "Juicy burgers, crispy fries, wraps, and quick comfort food.",
+      "imageUrl": "https://placehold.co/600x400/171717/F97316?text=Burger+Barn"
     },
     {
       "id": "7",
-      "name": "Royal Dum Kitchen",
-      "rating": 4.5,
-      "category": "Biryani",
-      "description": "Dum-cooked biryani and rich Mughlai-style dishes.",
-      "imageUrl": "https://placehold.co/600x400?text=Royal+Dum+Kitchen"
+      "name": "Punjabi Dhaba",
+      "rating": 4.4,
+      "category": "Punjabi",
+      "description": "Hearty Punjabi curries, tandoori breads, and traditional thali meals.",
+      "imageUrl": "https://placehold.co/600x400/171717/F97316?text=Punjabi+Dhaba"
     },
     {
       "id": "8",
-      "name": "Punjabi Dhaba",
-      "rating": 4.2,
-      "category": "Punjabi",
-      "description": "Relaxed dhaba-style restaurant serving hearty Punjabi comfort food.",
-      "imageUrl": "https://placehold.co/600x400?text=Punjabi+Dhaba"
+      "name": "Chaat Chowk",
+      "rating": 4.5,
+      "category": "Street Food",
+      "description": "Indian street-food classics, tangy chaats, and crispy snacks.",
+      "imageUrl": "https://placehold.co/600x400/171717/F97316?text=Chaat+Chowk"
     },
     {
       "id": "9",
-      "name": "Punjab Grill House",
-      "rating": 4.5,
-      "category": "North Indian",
-      "description": "Grilled kebabs, paneer dishes, curries, and Indian breads.",
-      "imageUrl": "https://placehold.co/600x400?text=Punjab+Grill+House"
-    },
-    {
-      "id": "10",
-      "name": "Curry Leaf Cafe",
-      "rating": 4.2,
-      "category": "South Indian",
-      "description": "Homestyle South Indian food in a casual cafe setting.",
-      "imageUrl": "https://placehold.co/600x400?text=Curry+Leaf+Cafe"
-    },
-    {
-      "id": "11",
-      "name": "The Urban Tiffin",
-      "rating": 4.1,
-      "category": "Multi-Cuisine",
-      "description": "Quick meals, snacks, and everyday favorites.",
-      "imageUrl": "https://placehold.co/600x400?text=The+Urban+Tiffin"
-    },
-    {
-      "id": "12",
       "name": "Green Bowl Bistro",
       "rating": 4.3,
       "category": "Healthy Food",
       "description": "Fresh salads, grain bowls, and balanced vegetarian meals.",
-      "imageUrl": "https://placehold.co/600x400?text=Green+Bowl+Bistro"
+      "imageUrl": "https://placehold.co/600x400/171717/F97316?text=Green+Bowl+Bistro"
     },
     {
-      "id": "13",
-      "name": "Veggie Delight",
-      "rating": 4.2,
-      "category": "Vegetarian",
-      "description": "Vegetarian restaurant with Indian and international dishes.",
-      "imageUrl": "https://placehold.co/600x400?text=Veggie+Delight"
-    },
-    {
-      "id": "14",
-      "name": "Pure Veg Palace",
+      "id": "10",
+      "name": "Coastal Curry",
       "rating": 4.4,
-      "category": "Vegetarian",
-      "description": "Family-friendly vegetarian dining with a broad menu.",
-      "imageUrl": "https://placehold.co/600x400?text=Pure+Veg+Palace"
-    },
-    {
-      "id": "15",
-      "name": "Saffron Lounge",
-      "rating": 4.5,
-      "category": "Mughlai",
-      "description": "Mughlai curries, kebabs, and rich aromatic rice dishes.",
-      "imageUrl": "https://placehold.co/600x400?text=Saffron+Lounge"
-    },
-    {
-      "id": "16",
-      "name": "Mughal Darbar",
-      "rating": 4.4,
-      "category": "Mughlai",
-      "description": "Classic Mughlai-inspired food with kebabs and creamy gravies.",
-      "imageUrl": "https://placehold.co/600x400?text=Mughal+Darbar"
-    },
-    {
-      "id": "17",
-      "name": "The Pizza Oven",
-      "rating": 4.3,
-      "category": "Italian",
-      "description": "Pizzas, garlic bread, and baked Italian-style favorites.",
-      "imageUrl": "https://placehold.co/600x400?text=The+Pizza+Oven"
-    },
-    {
-      "id": "18",
-      "name": "Bella Pasta",
-      "rating": 4.2,
-      "category": "Italian",
-      "description": "Pasta dishes, baked entrees, and Italian-inspired sides.",
-      "imageUrl": "https://placehold.co/600x400?text=Bella+Pasta"
-    },
-    {
-      "id": "19",
-      "name": "Olive & Thyme",
-      "rating": 4.4,
-      "category": "Mediterranean",
-      "description": "Mediterranean-inspired plates, salads, and grilled dishes.",
-      "imageUrl": "https://placehold.co/600x400?text=Olive+&+Thyme"
-    },
-    {
-      "id": "20",
-      "name": "Wok Express",
-      "rating": 4.1,
-      "category": "Chinese",
-      "description": "Fast-casual Chinese-style noodles, rice, and stir-fries.",
-      "imageUrl": "https://placehold.co/600x400?text=Wok+Express"
-    },
-    {
-      "id": "21",
-      "name": "Dragon Bowl",
-      "rating": 4.3,
-      "category": "Asian",
-      "description": "Asian-inspired bowls, noodles, and savory stir-fried dishes.",
-      "imageUrl": "https://placehold.co/600x400?text=Dragon+Bowl"
-    },
-    {
-      "id": "22",
-      "name": "Schezwan Street",
-      "rating": 4.2,
-      "category": "Indo-Chinese",
-      "description": "Indo-Chinese favorites with spicy sauces and crunchy starters.",
-      "imageUrl": "https://placehold.co/600x400?text=Schezwan+Street"
-    },
-    {
-      "id": "23",
-      "name": "Burger Barn",
-      "rating": 4.2,
-      "category": "Fast Food",
-      "description": "Burgers, fries, wraps, and quick comfort food.",
-      "imageUrl": "https://placehold.co/600x400?text=Burger+Barn"
-    },
-    {
-      "id": "24",
-      "name": "Grill & Bun",
-      "rating": 4.3,
-      "category": "Burgers",
-      "description": "Grilled burgers with flavorful sauces and classic sides.",
-      "imageUrl": "https://placehold.co/600x400?text=Grill+&+Bun"
-    },
-    {
-      "id": "25",
-      "name": "Sandwich Studio",
-      "rating": 4.1,
-      "category": "Cafe",
-      "description": "Made-to-order sandwiches, wraps, and light meals.",
-      "imageUrl": "https://placehold.co/600x400?text=Sandwich+Studio"
-    },
-    {
-      "id": "26",
-      "name": "The Breakfast Club",
-      "rating": 4.4,
-      "category": "Breakfast",
-      "description": "Breakfast plates, toast, pancakes, and hot beverages.",
-      "imageUrl": "https://placehold.co/600x400?text=The+Breakfast+Club"
-    },
-    {
-      "id": "27",
-      "name": "Morning Masala",
-      "rating": 4.3,
-      "category": "Breakfast",
-      "description": "Indian breakfast favorites including poha, upma, and parathas.",
-      "imageUrl": "https://placehold.co/600x400?text=Morning+Masala"
-    },
-    {
-      "id": "28",
-      "name": "Chaat Chowk",
-      "rating": 4.5,
-      "category": "Street Food",
-      "description": "Street-food-inspired chaat, snacks, and tangy treats.",
-      "imageUrl": "https://placehold.co/600x400?text=Chaat+Chowk"
-    },
-    {
-      "id": "29",
-      "name": "Tasty Tandoor",
-      "rating": 4.4,
-      "category": "Tandoori",
-      "description": "Tandoori vegetables, paneer, kebabs, and freshly baked breads.",
-      "imageUrl": "https://placehold.co/600x400?text=Tasty+Tandoor"
-    },
-    {
-      "id": "30",
-      "name": "The Curry Pot",
-      "rating": 4.2,
-      "category": "Indian",
-      "description": "Everyday Indian curries, rice, and bread combinations.",
-      "imageUrl": "https://placehold.co/600x400?text=The+Curry+Pot"
-    },
-    {
-      "id": "31",
-      "name": "Noodle Nest",
-      "rating": 4.1,
-      "category": "Noodles",
-      "description": "Noodle bowls, stir-fries, and Asian-inspired comfort food.",
-      "imageUrl": "https://placehold.co/600x400?text=Noodle+Nest"
-    },
-    {
-      "id": "32",
-      "name": "Sushi Harbor",
-      "rating": 4.4,
-      "category": "Japanese",
-      "description": "Japanese-inspired sushi rolls, rice bowls, and small plates.",
-      "imageUrl": "https://placehold.co/600x400?text=Sushi+Harbor"
-    },
-    {
-      "id": "33",
-      "name": "Tokyo Bento",
-      "rating": 4.3,
-      "category": "Japanese",
-      "description": "Bento-style meals, noodles, and Japanese-inspired rice dishes.",
-      "imageUrl": "https://placehold.co/600x400?text=Tokyo+Bento"
-    },
-    {
-      "id": "34",
-      "name": "Thai Basil Kitchen",
-      "rating": 4.4,
-      "category": "Thai",
-      "description": "Thai-inspired curries, stir-fries, and fragrant rice dishes.",
-      "imageUrl": "https://placehold.co/600x400?text=Thai+Basil+Kitchen"
-    },
-    {
-      "id": "35",
-      "name": "Lemon Grass Cafe",
-      "rating": 4.2,
-      "category": "Thai",
-      "description": "Light Thai-inspired meals with herbs, vegetables, and noodles.",
-      "imageUrl": "https://placehold.co/600x400?text=Lemon+Grass+Cafe"
-    },
-    {
-      "id": "36",
-      "name": "Mexican Fiesta",
-      "rating": 4.3,
-      "category": "Mexican",
-      "description": "Tacos, burritos, quesadillas, and Mexican-inspired bowls.",
-      "imageUrl": "https://placehold.co/600x400?text=Mexican+Fiesta"
-    },
-    {
-      "id": "37",
-      "name": "Taco Town",
-      "rating": 4.1,
-      "category": "Mexican",
-      "description": "Quick tacos, wraps, and flavorful Mexican-inspired snacks.",
-      "imageUrl": "https://placehold.co/600x400?text=Taco+Town"
-    },
-    {
-      "id": "38",
-      "name": "Falafel Corner",
-      "rating": 4.2,
-      "category": "Middle Eastern",
-      "description": "Falafel wraps, hummus, and Middle Eastern-inspired plates.",
-      "imageUrl": "https://placehold.co/600x400?text=Falafel+Corner"
-    },
-    {
-      "id": "39",
-      "name": "Shawarma Station",
-      "rating": 4.3,
-      "category": "Middle Eastern",
-      "description": "Shawarma wraps, rice plates, and garlic sauces.",
-      "imageUrl": "https://placehold.co/600x400?text=Shawarma+Station"
-    },
-    {
-      "id": "40",
-      "name": "The Dessert Room",
-      "rating": 4.5,
-      "category": "Desserts",
-      "description": "Cakes, pastries, brownies, and other sweet treats.",
-      "imageUrl": "https://placehold.co/600x400?text=The+Dessert+Room"
-    },
-    {
-      "id": "41",
-      "name": "Sugar & Cream",
-      "rating": 4.4,
-      "category": "Bakery",
-      "description": "Fresh pastries, cookies, cakes, and creamy desserts.",
-      "imageUrl": "https://placehold.co/600x400?text=Sugar+&+Cream"
-    },
-    {
-      "id": "42",
-      "name": "Daily Dose Cafe",
-      "rating": 4.3,
-      "category": "Cafe",
-      "description": "Coffee, tea, baked goods, and light cafe meals.",
-      "imageUrl": "https://placehold.co/600x400?text=Daily+Dose+Cafe"
-    },
-    {
-      "id": "43",
-      "name": "Bean There Cafe",
-      "rating": 4.2,
-      "category": "Coffee",
-      "description": "Coffee-focused cafe serving espresso drinks and snacks.",
-      "imageUrl": "https://placehold.co/600x400?text=Bean+There+Cafe"
-    },
-    {
-      "id": "44",
-      "name": "Chai Adda",
-      "rating": 4.4,
-      "category": "Tea & Snacks",
-      "description": "Indian tea, quick bites, and casual evening snacks.",
-      "imageUrl": "https://placehold.co/600x400?text=Chai+Adda"
-    },
-    {
-      "id": "45",
-      "name": "Fresh Press Juice Bar",
-      "rating": 4.1,
-      "category": "Beverages",
-      "description": "Fresh juices, smoothies, and refreshing drinks.",
-      "imageUrl": "https://placehold.co/600x400?text=Fresh+Press+Juice+Bar"
-    },
-    {
-      "id": "46",
-      "name": "The Family Table",
-      "rating": 4.4,
-      "category": "Family Dining",
-      "description": "A family-friendly menu with vegetarian and non-vegetarian options.",
-      "imageUrl": "https://placehold.co/600x400?text=The+Family+Table"
-    },
-    {
-      "id": "47",
-      "name": "Garden Feast",
-      "rating": 4.3,
-      "category": "Buffet",
-      "description": "Buffet-style selection of starters, mains, and desserts.",
-      "imageUrl": "https://placehold.co/600x400?text=Garden+Feast"
-    },
-    {
-      "id": "48",
-      "name": "Celebration Kitchen",
-      "rating": 4.2,
-      "category": "Multi-Cuisine",
-      "description": "A varied menu suitable for group meals and celebrations.",
-      "imageUrl": "https://placehold.co/600x400?text=Celebration+Kitchen"
-    },
-    {
-      "id": "49",
-      "name": "Midnight Munchies",
-      "rating": 4.0,
-      "category": "Late Night Food",
-      "description": "Late-night snacks, wraps, burgers, and quick meals.",
-      "imageUrl": "https://placehold.co/600x400?text=Midnight+Munchies"
-    },
-    {
-      "id": "50",
-      "name": "Street Eats Hub",
-      "rating": 4.2,
-      "category": "Street Food",
-      "description": "Street-food favorites and quick bites in one casual spot.",
-      "imageUrl": "https://placehold.co/600x400?text=Street+Eats+Hub"
-    },
-    {
-      "id": "51",
-      "name": "The Royal Thali",
-      "rating": 4.5,
-      "category": "Thali",
-      "description": "Traditional thali meals with a variety of sides and accompaniments.",
-      "imageUrl": "https://placehold.co/600x400?text=The+Royal+Thali"
-    },
-    {
-      "id": "52",
-      "name": "Rice Bowl House",
-      "rating": 4.2,
-      "category": "Rice Bowls",
-      "description": "Rice bowls paired with curries, vegetables, and flavorful toppings.",
-      "imageUrl": "https://placehold.co/600x400?text=Rice+Bowl+House"
-    },
-    {
-      "id": "53",
-      "name": "Kebab Kingdom",
-      "rating": 4.4,
-      "category": "Kebabs",
-      "description": "Grilled kebabs, tandoori starters, and savory accompaniments.",
-      "imageUrl": "https://placehold.co/600x400?text=Kebab+Kingdom"
-    },
-    {
-      "id": "54",
-      "name": "Sea Breeze Restaurant",
-      "rating": 4.3,
       "category": "Seafood",
-      "description": "Seafood-inspired dishes with coastal flavors and spices.",
-      "imageUrl": "https://placehold.co/600x400?text=Sea+Breeze+Restaurant"
+      "description": "Coastal-inspired curries, seafood specialties, and fragrant rice.",
+      "imageUrl": "https://placehold.co/600x400/171717/F97316?text=Coastal+Curry"
     },
     {
-      "id": "55",
-      "name": "Mountain Momos",
+      "id": "11",
+      "name": "Daily Dose Cafe",
       "rating": 4.2,
-      "category": "Tibetan",
-      "description": "Steamed and fried momos served with dipping sauces.",
-      "imageUrl": "https://placehold.co/600x400?text=Mountain+Momos"
+      "category": "Cafe",
+      "description": "Coffee, tea, baked treats, sandwiches, and light cafe meals.",
+      "imageUrl": "https://placehold.co/600x400/171717/F97316?text=Daily+Dose+Cafe"
     },
     {
-      "id": "56",
-      "name": "Pasta & More",
-      "rating": 4.1,
-      "category": "Italian",
-      "description": "Pasta, baked dishes, and familiar Italian-inspired comfort food.",
-      "imageUrl": "https://placehold.co/600x400?text=Pasta+&+More"
-    },
-    {
-      "id": "57",
-      "name": "Cheese Wheel Pizzeria",
-      "rating": 4.4,
-      "category": "Pizza",
-      "description": "Cheese-forward pizzas with classic and creative toppings.",
-      "imageUrl": "https://placehold.co/600x400?text=Cheese+Wheel+Pizzeria"
-    },
-    {
-      "id": "58",
-      "name": "Wrap It Up",
-      "rating": 4.0,
-      "category": "Wraps",
-      "description": "Quick wraps and rolls filled with vegetables, paneer, and sauces.",
-      "imageUrl": "https://placehold.co/600x400?text=Wrap+It+Up"
-    },
-    {
-      "id": "59",
-      "name": "The Salad Fork",
-      "rating": 4.2,
-      "category": "Healthy Food",
-      "description": "Fresh salads and light meals made with vegetables and grains.",
-      "imageUrl": "https://placehold.co/600x400?text=The+Salad+Fork"
-    },
-    {
-      "id": "60",
-      "name": "Farm Fresh Kitchen",
-      "rating": 4.3,
-      "category": "Organic-Inspired",
-      "description": "Seasonal produce-inspired meals and fresh vegetarian options.",
-      "imageUrl": "https://placehold.co/600x400?text=Farm+Fresh+Kitchen"
-    },
-    {
-      "id": "61",
-      "name": "Sizzle Plate",
-      "rating": 4.3,
-      "category": "Grill",
-      "description": "Grilled dishes served hot with sides and sauces.",
-      "imageUrl": "https://placehold.co/600x400?text=Sizzle+Plate"
-    },
-    {
-      "id": "62",
-      "name": "Smoky Grill House",
-      "rating": 4.4,
-      "category": "Barbecue",
-      "description": "Smoky grilled dishes and barbecue-inspired flavors.",
-      "imageUrl": "https://placehold.co/600x400?text=Smoky+Grill+House"
-    },
-    {
-      "id": "63",
-      "name": "Sweet Treats Bakery",
-      "rating": 4.3,
-      "category": "Bakery",
-      "description": "Breads, cakes, pastries, and baked snacks.",
-      "imageUrl": "https://placehold.co/600x400?text=Sweet+Treats+Bakery"
-    },
-    {
-      "id": "64",
-      "name": "Creamy Scoop",
-      "rating": 4.2,
-      "category": "Ice Cream",
-      "description": "Ice cream, sundaes, and frozen dessert treats.",
-      "imageUrl": "https://placehold.co/600x400?text=Creamy+Scoop"
-    },
-    {
-      "id": "65",
-      "name": "Choco Craft",
-      "rating": 4.4,
+      "id": "12",
+      "name": "The Dessert Room",
+      "rating": 4.6,
       "category": "Desserts",
-      "description": "Chocolate desserts, brownies, and indulgent sweet creations.",
-      "imageUrl": "https://placehold.co/600x400?text=Choco+Craft"
+      "description": "Cakes, pastries, brownies, and sweet treats for every occasion.",
+      "imageUrl": "https://placehold.co/600x400/171717/F97316?text=The+Dessert+Room"
+    }
+  ],
+  "foods": [
+    {
+      "id": "101",
+      "restaurantId": "1",
+      "name": "Chicken Tikka Masala",
+      "price": 14.99,
+      "category": "Main Course",
+      "description": "Roasted chicken chunks in a spicy, creamy orange curry sauce.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Chicken+Tikka+Masala"
     },
     {
-      "id": "66",
-      "name": "Royal Rasoi",
-      "rating": 4.5,
-      "category": "Indian",
-      "description": "A broad Indian menu featuring regional specialties and thalis.",
-      "imageUrl": "https://placehold.co/600x400?text=Royal+Rasoi"
+      "id": "102",
+      "restaurantId": "1",
+      "name": "Paneer Butter Masala",
+      "price": 12.49,
+      "category": "Main Course",
+      "description": "Paneer cubes simmered in a rich tomato and butter gravy.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Paneer+Butter+Masala"
     },
     {
-      "id": "67",
-      "name": "Village Kitchen",
-      "rating": 4.2,
-      "category": "Traditional Indian",
-      "description": "Homestyle Indian dishes inspired by traditional recipes.",
-      "imageUrl": "https://placehold.co/600x400?text=Village+Kitchen"
+      "id": "103",
+      "restaurantId": "1",
+      "name": "Tandoori Chicken",
+      "price": 13.99,
+      "category": "Starters",
+      "description": "Yogurt-marinated chicken roasted with tandoori spices.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Tandoori+Chicken"
     },
     {
-      "id": "68",
-      "name": "Metro Meals",
-      "rating": 4.0,
-      "category": "Quick Service",
-      "description": "Quick meals and snacks for busy days.",
-      "imageUrl": "https://placehold.co/600x400?text=Metro+Meals"
+      "id": "104",
+      "restaurantId": "1",
+      "name": "Garlic Naan",
+      "price": 2.99,
+      "category": "Bread",
+      "description": "Soft naan bread topped with garlic and herbs.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Garlic+Naan"
     },
     {
-      "id": "69",
-      "name": "Happy Plates",
-      "rating": 4.1,
-      "category": "Multi-Cuisine",
-      "description": "Casual dining with a mix of popular comfort foods.",
-      "imageUrl": "https://placehold.co/600x400?text=Happy+Plates"
+      "id": "105",
+      "restaurantId": "1",
+      "name": "Dal Makhani",
+      "price": 10.99,
+      "category": "Main Course",
+      "description": "Slow-cooked black lentils in a creamy buttery sauce.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Dal+Makhani"
     },
     {
-      "id": "70",
-      "name": "Cornerstone Bistro",
-      "rating": 4.3,
-      "category": "Bistro",
-      "description": "A relaxed bistro serving light meals, mains, and drinks.",
-      "imageUrl": "https://placehold.co/600x400?text=Cornerstone+Bistro"
+      "id": "106",
+      "restaurantId": "2",
+      "name": "Masala Dosa",
+      "price": 7.99,
+      "category": "Main Course",
+      "description": "Crispy dosa filled with spiced potato masala.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Masala+Dosa"
     },
     {
-      "id": "71",
-      "name": "Sunrise Restaurant",
-      "rating": 4.2,
-      "category": "Family Dining",
-      "description": "All-day dining with breakfast, lunch, and dinner choices.",
-      "imageUrl": "https://placehold.co/600x400?text=Sunrise+Restaurant"
+      "id": "107",
+      "restaurantId": "2",
+      "name": "Idli Sambar",
+      "price": 5.49,
+      "category": "Breakfast",
+      "description": "Steamed rice cakes served with lentil sambar and chutney.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Idli+Sambar"
     },
     {
-      "id": "72",
-      "name": "Taste Avenue",
-      "rating": 4.3,
-      "category": "Multi-Cuisine",
-      "description": "A varied menu of popular dishes from several cuisines.",
-      "imageUrl": "https://placehold.co/600x400?text=Taste+Avenue"
+      "id": "108",
+      "restaurantId": "2",
+      "name": "Medu Vada",
+      "price": 4.99,
+      "category": "Snacks",
+      "description": "Crispy lentil doughnuts with a soft center.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Medu+Vada"
     },
     {
-      "id": "73",
-      "name": "Flame & Fork",
-      "rating": 4.4,
-      "category": "Grill",
-      "description": "Grilled specialties and hearty plates served with sides.",
-      "imageUrl": "https://placehold.co/600x400?text=Flame+&+Fork"
+      "id": "109",
+      "restaurantId": "2",
+      "name": "Mysore Masala Dosa",
+      "price": 8.49,
+      "category": "Main Course",
+      "description": "Crispy dosa spread with spicy chutney and potato filling.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Mysore+Dosa"
     },
     {
-      "id": "74",
-      "name": "Little Italy Cafe",
-      "rating": 4.2,
-      "category": "Italian",
-      "description": "Pizza, pasta, and cafe-style Italian favorites.",
-      "imageUrl": "https://placehold.co/600x400?text=Little+Italy+Cafe"
+      "id": "110",
+      "restaurantId": "2",
+      "name": "Filter Coffee",
+      "price": 2.49,
+      "category": "Beverages",
+      "description": "South Indian filter coffee brewed with milk.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Filter+Coffee"
     },
     {
-      "id": "75",
-      "name": "Spice Route Restaurant",
-      "rating": 4.5,
-      "category": "Asian Fusion",
-      "description": "Fusion dishes inspired by regional Asian flavors.",
-      "imageUrl": "https://placehold.co/600x400?text=Spice+Route+Restaurant"
+      "id": "111",
+      "restaurantId": "3",
+      "name": "Chicken Dum Biryani",
+      "price": 13.99,
+      "category": "Main Course",
+      "description": "Fragrant basmati rice and spiced chicken cooked dum-style.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Chicken+Dum+Biryani"
     },
     {
-      "id": "76",
-      "name": "The Hungry Spoon",
-      "rating": 4.1,
-      "category": "Multi-Cuisine",
-      "description": "Comforting meals, snacks, and crowd-pleasing dishes.",
-      "imageUrl": "https://placehold.co/600x400?text=The+Hungry+Spoon"
+      "id": "112",
+      "restaurantId": "3",
+      "name": "Veg Biryani",
+      "price": 10.49,
+      "category": "Main Course",
+      "description": "Aromatic basmati rice cooked with vegetables and spices.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Veg+Biryani"
+    },
+    {
+      "id": "113",
+      "restaurantId": "3",
+      "name": "Mutton Biryani",
+      "price": 15.99,
+      "category": "Main Course",
+      "description": "Slow-cooked mutton layered with fragrant spiced rice.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Mutton+Biryani"
+    },
+    {
+      "id": "114",
+      "restaurantId": "3",
+      "name": "Paneer Biryani",
+      "price": 11.49,
+      "category": "Main Course",
+      "description": "Basmati rice cooked with paneer, herbs, and biryani spices.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Paneer+Biryani"
+    },
+    {
+      "id": "115",
+      "restaurantId": "3",
+      "name": "Double Ka Meetha",
+      "price": 4.99,
+      "category": "Desserts",
+      "description": "Hyderabadi bread pudding flavored with cardamom and saffron.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Double+Ka+Meetha"
+    },
+    {
+      "id": "116",
+      "restaurantId": "4",
+      "name": "Veg Hakka Noodles",
+      "price": 8.49,
+      "category": "Main Course",
+      "description": "Stir-fried noodles with vegetables and savory sauces.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Veg+Hakka+Noodles"
+    },
+    {
+      "id": "117",
+      "restaurantId": "4",
+      "name": "Schezwan Fried Rice",
+      "price": 8.99,
+      "category": "Main Course",
+      "description": "Fried rice tossed with spicy Schezwan sauce and vegetables.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Schezwan+Fried+Rice"
+    },
+    {
+      "id": "118",
+      "restaurantId": "4",
+      "name": "Chilli Paneer",
+      "price": 9.49,
+      "category": "Starters",
+      "description": "Paneer tossed with peppers, onions, and spicy Indo-Chinese sauce.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Chilli+Paneer"
+    },
+    {
+      "id": "119",
+      "restaurantId": "4",
+      "name": "Gobi Manchurian",
+      "price": 7.49,
+      "category": "Starters",
+      "description": "Crispy cauliflower tossed in tangy Indo-Chinese sauce.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Gobi+Manchurian"
+    },
+    {
+      "id": "120",
+      "restaurantId": "4",
+      "name": "Spring Rolls",
+      "price": 6.49,
+      "category": "Snacks",
+      "description": "Crispy rolls filled with seasoned vegetables.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Spring+Rolls"
+    },
+    {
+      "id": "121",
+      "restaurantId": "5",
+      "name": "Margherita Pizza",
+      "price": 10.99,
+      "category": "Main Course",
+      "description": "Pizza topped with tomato sauce, mozzarella, and basil.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Margherita+Pizza"
+    },
+    {
+      "id": "122",
+      "restaurantId": "5",
+      "name": "Farmhouse Pizza",
+      "price": 13.49,
+      "category": "Main Course",
+      "description": "Pizza loaded with onions, peppers, tomatoes, and cheese.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Farmhouse+Pizza"
+    },
+    {
+      "id": "123",
+      "restaurantId": "5",
+      "name": "White Sauce Pasta",
+      "price": 9.49,
+      "category": "Main Course",
+      "description": "Pasta coated in a creamy white sauce.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=White+Sauce+Pasta"
+    },
+    {
+      "id": "124",
+      "restaurantId": "5",
+      "name": "Red Sauce Pasta",
+      "price": 9.49,
+      "category": "Main Course",
+      "description": "Pasta tossed in a tangy tomato-based sauce.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Red+Sauce+Pasta"
+    },
+    {
+      "id": "125",
+      "restaurantId": "5",
+      "name": "Garlic Bread",
+      "price": 4.49,
+      "category": "Sides",
+      "description": "Toasted bread seasoned with garlic, herbs, and butter.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Garlic+Bread"
+    },
+    {
+      "id": "126",
+      "restaurantId": "6",
+      "name": "Classic Veg Burger",
+      "price": 6.99,
+      "category": "Main Course",
+      "description": "Vegetable patty served in a bun with lettuce and sauce.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Veg+Burger"
+    },
+    {
+      "id": "127",
+      "restaurantId": "6",
+      "name": "Crispy Chicken Burger",
+      "price": 8.49,
+      "category": "Main Course",
+      "description": "Crispy chicken fillet with lettuce and house sauce in a bun.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Chicken+Burger"
+    },
+    {
+      "id": "128",
+      "restaurantId": "6",
+      "name": "French Fries",
+      "price": 3.49,
+      "category": "Sides",
+      "description": "Golden fried potato sticks seasoned with salt.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=French+Fries"
+    },
+    {
+      "id": "129",
+      "restaurantId": "6",
+      "name": "Paneer Wrap",
+      "price": 6.49,
+      "category": "Wraps",
+      "description": "Spiced paneer and vegetables wrapped in a soft flatbread.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Paneer+Wrap"
+    },
+    {
+      "id": "130",
+      "restaurantId": "6",
+      "name": "Chocolate Milkshake",
+      "price": 4.49,
+      "category": "Beverages",
+      "description": "Cold milkshake blended with chocolate and ice cream.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Chocolate+Milkshake"
+    },
+    {
+      "id": "131",
+      "restaurantId": "7",
+      "name": "Chole Bhature",
+      "price": 9.49,
+      "category": "Main Course",
+      "description": "Spicy chickpea curry served with fluffy fried bread.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Chole+Bhature"
+    },
+    {
+      "id": "132",
+      "restaurantId": "7",
+      "name": "Amritsari Kulcha",
+      "price": 7.49,
+      "category": "Main Course",
+      "description": "Stuffed Punjabi flatbread served with chickpeas and chutney.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Amritsari+Kulcha"
+    },
+    {
+      "id": "133",
+      "restaurantId": "7",
+      "name": "Sarson Ka Saag",
+      "price": 9.99,
+      "category": "Main Course",
+      "description": "Mustard greens cooked with spices and served Punjabi-style.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Sarson+Ka+Saag"
+    },
+    {
+      "id": "134",
+      "restaurantId": "7",
+      "name": "Aloo Paratha",
+      "price": 5.49,
+      "category": "Breakfast",
+      "description": "Flatbread stuffed with spiced mashed potatoes.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Aloo+Paratha"
+    },
+    {
+      "id": "135",
+      "restaurantId": "7",
+      "name": "Lassi",
+      "price": 3.49,
+      "category": "Beverages",
+      "description": "Refreshing yogurt drink served sweet or salted.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Lassi"
+    },
+    {
+      "id": "136",
+      "restaurantId": "8",
+      "name": "Pani Puri",
+      "price": 4.49,
+      "category": "Chaat",
+      "description": "Crispy puris filled with potatoes and tangy spiced water.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Pani+Puri"
+    },
+    {
+      "id": "137",
+      "restaurantId": "8",
+      "name": "Dahi Papdi Chaat",
+      "price": 5.49,
+      "category": "Chaat",
+      "description": "Crispy papdi topped with yogurt, chutneys, spices, and sev.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Dahi+Papdi+Chaat"
+    },
+    {
+      "id": "138",
+      "restaurantId": "8",
+      "name": "Raj Kachori",
+      "price": 6.49,
+      "category": "Chaat",
+      "description": "Large crispy kachori filled with potatoes, lentils, yogurt, and chutneys.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Raj+Kachori"
+    },
+    {
+      "id": "139",
+      "restaurantId": "8",
+      "name": "Aloo Tikki Chaat",
+      "price": 5.49,
+      "category": "Chaat",
+      "description": "Crispy potato patties topped with chutneys and chaat spices.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Aloo+Tikki+Chaat"
+    },
+    {
+      "id": "140",
+      "restaurantId": "8",
+      "name": "Bhel Puri",
+      "price": 4.49,
+      "category": "Chaat",
+      "description": "Puffed rice mixed with vegetables, chutneys, and crunchy sev.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Bhel+Puri"
+    },
+    {
+      "id": "141",
+      "restaurantId": "9",
+      "name": "Quinoa Veg Bowl",
+      "price": 9.99,
+      "category": "Bowls",
+      "description": "Quinoa served with fresh vegetables and a light dressing.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Quinoa+Veg+Bowl"
+    },
+    {
+      "id": "142",
+      "restaurantId": "9",
+      "name": "Grilled Paneer Salad",
+      "price": 8.99,
+      "category": "Salads",
+      "description": "Grilled paneer served over crisp greens and fresh vegetables.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Paneer+Salad"
+    },
+    {
+      "id": "143",
+      "restaurantId": "9",
+      "name": "Avocado Toast",
+      "price": 7.49,
+      "category": "Breakfast",
+      "description": "Toasted bread topped with avocado and seasoning.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Avocado+Toast"
+    },
+    {
+      "id": "144",
+      "restaurantId": "9",
+      "name": "Fruit Yogurt Bowl",
+      "price": 6.49,
+      "category": "Bowls",
+      "description": "Yogurt topped with fresh fruit and crunchy granola.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Fruit+Yogurt+Bowl"
+    },
+    {
+      "id": "145",
+      "restaurantId": "9",
+      "name": "Fresh Lime Water",
+      "price": 2.49,
+      "category": "Beverages",
+      "description": "Refreshing lime drink served chilled.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Fresh+Lime+Water"
+    },
+    {
+      "id": "146",
+      "restaurantId": "10",
+      "name": "Andhra Fish Curry",
+      "price": 12.99,
+      "category": "Main Course",
+      "description": "Fish cooked in a tangy, spicy coastal curry.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Andhra+Fish+Curry"
+    },
+    {
+      "id": "147",
+      "restaurantId": "10",
+      "name": "Prawn Masala",
+      "price": 14.49,
+      "category": "Main Course",
+      "description": "Prawns simmered in a rich onion, tomato, and spice gravy.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Prawn+Masala"
+    },
+    {
+      "id": "148",
+      "restaurantId": "10",
+      "name": "Fish Fry",
+      "price": 10.99,
+      "category": "Starters",
+      "description": "Fish marinated with regional spices and pan-fried until crisp.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Fish+Fry"
+    },
+    {
+      "id": "149",
+      "restaurantId": "10",
+      "name": "Coconut Rice",
+      "price": 5.49,
+      "category": "Rice",
+      "description": "Rice flavored with coconut, curry leaves, and mild spices.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Coconut+Rice"
+    },
+    {
+      "id": "150",
+      "restaurantId": "10",
+      "name": "Veg Meals",
+      "price": 8.49,
+      "category": "Thali",
+      "description": "A traditional meal served with rice, curries, and accompaniments.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Veg+Meals"
+    },
+    {
+      "id": "151",
+      "restaurantId": "11",
+      "name": "Cappuccino",
+      "price": 3.49,
+      "category": "Coffee",
+      "description": "Espresso topped with steamed milk and foam.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Cappuccino"
+    },
+    {
+      "id": "152",
+      "restaurantId": "11",
+      "name": "Cold Coffee",
+      "price": 4.49,
+      "category": "Coffee",
+      "description": "Chilled coffee blended with milk and ice.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Cold+Coffee"
+    },
+    {
+      "id": "153",
+      "restaurantId": "11",
+      "name": "Veg Club Sandwich",
+      "price": 6.99,
+      "category": "Snacks",
+      "description": "Layered sandwich with vegetables, cheese, and sauces.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Veg+Club+Sandwich"
+    },
+    {
+      "id": "154",
+      "restaurantId": "11",
+      "name": "Blueberry Muffin",
+      "price": 3.29,
+      "category": "Bakery",
+      "description": "Soft baked muffin filled with blueberries.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Blueberry+Muffin"
+    },
+    {
+      "id": "155",
+      "restaurantId": "11",
+      "name": "Chocolate Croissant",
+      "price": 3.99,
+      "category": "Bakery",
+      "description": "Flaky pastry filled with chocolate.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Chocolate+Croissant"
+    },
+    {
+      "id": "156",
+      "restaurantId": "12",
+      "name": "Chocolate Brownie",
+      "price": 4.49,
+      "category": "Desserts",
+      "description": "Rich chocolate baked dessert with a fudgy texture.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Chocolate+Brownie"
+    },
+    {
+      "id": "157",
+      "restaurantId": "12",
+      "name": "Red Velvet Cake",
+      "price": 5.49,
+      "category": "Desserts",
+      "description": "Moist red velvet cake layered with cream cheese frosting.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Red+Velvet+Cake"
+    },
+    {
+      "id": "158",
+      "restaurantId": "12",
+      "name": "Gulab Jamun",
+      "price": 3.99,
+      "category": "Desserts",
+      "description": "Soft milk-solid dumplings soaked in sugar syrup.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Gulab+Jamun"
+    },
+    {
+      "id": "159",
+      "restaurantId": "12",
+      "name": "Rasmalai",
+      "price": 4.49,
+      "category": "Desserts",
+      "description": "Soft cheese patties served in sweetened cardamom milk.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Rasmalai"
+    },
+    {
+      "id": "160",
+      "restaurantId": "12",
+      "name": "Vanilla Ice Cream",
+      "price": 3.49,
+      "category": "Desserts",
+      "description": "Classic creamy vanilla-flavored frozen dessert.",
+      "available": true,
+      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Vanilla+Ice+Cream"
     }
   ],
   "orders": []
