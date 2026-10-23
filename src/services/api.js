@@ -68,7 +68,7 @@ const updateOrder = async (id, order) => {
   return response.json();
 };
 
-export default {
+export {
   getRestaurant,
   getRestaurantById,
   getItem,
