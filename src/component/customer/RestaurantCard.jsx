@@ -2,9 +2,8 @@ import { Link } from "react-router-dom";
 
 const RestaurantCard = ({ restaurant }) => {
   return (
-    <Link to={`/restaurants/${restaurant.id}`} className="group block h-full">
+    <Link to={`/restaurant/${restaurant.id}`} className="group block h-full">
       <article className="food-card h-full overflow-hidden p-0 transition-all duration-300 hover:-translate-y-1 hover:border-brand/50">
-      
         <div className="relative overflow-hidden">
           <img
             src={restaurant.imageUrl}
@@ -13,12 +12,10 @@ const RestaurantCard = ({ restaurant }) => {
             loading="lazy"
           />
 
-       
           <span className="badge-brand absolute left-3 top-3 py-1 px-2 rounded-xl">
             {restaurant.category}
           </span>
         </div>
-
 
         <div className="flex flex-col gap-3 p-4">
           <h3 className="truncate text-lg font-bold text-white transition-colors group-hover:text-brand">

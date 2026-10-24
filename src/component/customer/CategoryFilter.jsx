@@ -1,5 +1,5 @@
 const CategoryFilter = ({ activecategory, OnCategoryClick }) => {
-  const arr = ["All", "Burgers", "Asian", "Pizza", "Desserts"];
+  const arr = ["All","Main Course","Starters","Beverages","Desserts"];
   return (
     <div className=" flex gap-3 overflow-x-auto py-2 my-4">
       {arr.map((category) => (

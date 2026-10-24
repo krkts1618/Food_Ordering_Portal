@@ -10,12 +10,12 @@ const getRestaurantById = async (id) => {
   return response.json();
 };
 
-const getItem = async () => {
+const getFoods = async () => {
   const response = await fetch(`${API_URL}/foods`);
   return response.json();
 };
 
-const getItemById = async (id) => {
+const getFoodsById = async (id) => {
   const response = await fetch(`${API_URL}/foods/${id}`);
   return response.json();
 };
@@ -71,8 +71,8 @@ const updateOrder = async (id, order) => {
 export {
   getRestaurant,
   getRestaurantById,
-  getItem,
-  getItemById,
+  getFoods,
+  getFoodsById,
   getOrder,
   createItem,
   createOrder,

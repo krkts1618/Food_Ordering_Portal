@@ -132,6 +132,7 @@ const Home = () => {
         )}
       </section>
     </main>
+    
   );
 };
 
