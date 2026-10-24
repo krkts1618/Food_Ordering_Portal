@@ -4,8 +4,8 @@ const Navbar = () => {
   return (
     <header className="bg-neutral-900/80 backdrop-blur-md sticky top-0 z-50">
       <div className="page-container flex items-center justify-between py-4 border-b border-white/[0.08]">
-        <Link to="/" className="text-2xl font-display font-bold text-brand">
-          Food<span className="text-white">Hub</span>
+        <Link to="/" className="text-2xl font-display font-bold">
+          <span className="font-extrabold text-3xl">Food<span className="text-orange-500 font-bold"> Hub</span></span>
         </Link>
 
         <nav className="flex items-center gap-6">
@@ -35,7 +35,6 @@ const Navbar = () => {
           </NavLink>
         </nav>
 
-        
         <Link to="/orders">
           <button className="btn btn-primary px-3" aria-label="Shopping Cart">
             <svg

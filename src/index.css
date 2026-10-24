@@ -121,6 +121,26 @@ a {
     padding-inline: 2.5rem;
   }
 }
+.logo {
+  width: 180px;
+  height: 80px;
+  object-fit: contain;
+  display: block;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  gap: 24px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
 
 /* ========================================
    HEADINGS

@@ -31,15 +31,16 @@ const RestaurantMenu = () => {
     }
     fetchdata();
   }, [id]);
-  const filterMenu = useMemo(() => {
+  const filteredMenu = useMemo(() => {
     return menuItems.filter((item) => {
-      const matchcategory = category === "All" || category === item.category;
-      const matchesSearch = item.name
-        .toLowerCase()
-        .includes(search.toLocaleLowerCase());
-      return matchcategory && matchesSearch;
+      // Add defensive optional chaining (?) and toLowerCase()
+      const matchesCategory =
+        category === "All" ||
+        item.category?.toLowerCase() === category.toLowerCase();
+
+      return matchesCategory;
     });
-  }, [menuItems, category, search]);
+  }, [menuItems, category]);
 
   return (
     <div className="page-container py-8 flex flex-col gap-10">
@@ -65,7 +66,6 @@ const RestaurantMenu = () => {
 
       {!loading && !error && restaurant && (
         <>
-          {/* Restaurant Hero Banner */}
           <section className="overflow-hidden rounded-2xl border border-white/10 bg-midnight-card flex flex-col md:flex-row">
             <img
               src={restaurant.imageUrl}
@@ -86,7 +86,6 @@ const RestaurantMenu = () => {
             </div>
           </section>
 
-          {/* Controls: Search & Category */}
           <section className="flex flex-col gap-5">
             <h2 className="section-title">Menu</h2>
             <div className="w-full max-w-md">
@@ -101,11 +100,10 @@ const RestaurantMenu = () => {
             />
           </section>
 
-          {/* Render Food Grid */}
           <section>
-            {filterMenu.length > 0 ? (
+            {filteredMenu.length > 0 ? (
               <div className="food-grid">
-                {filterMenu.map((item) => (
+                {filteredMenu.map((item) => (
                   <FoodCard key={item.id} food={item} />
                 ))}
               </div>
