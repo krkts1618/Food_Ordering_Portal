@@ -4,6 +4,7 @@ import Restaurant from "./pages/RestaurantMenu";
 import CheckoutOrders from "./pages/CheckoutOrders";
 import AdminDashboard from "./pages/AdminDashboard";
 import NavBar from "./component/layout/Navbar";
+
 const App = () => {
   return (
     <>
