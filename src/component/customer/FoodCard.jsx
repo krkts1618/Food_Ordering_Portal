@@ -1,4 +1,7 @@
+import { useCart } from "../../context/CartContext";
+
 const FoodCard = ({ food }) => {
+  const { addToCart } = useCart();
   return (
     <div className="food-card flex flex-col">
       <img
@@ -10,7 +13,7 @@ const FoodCard = ({ food }) => {
       <div className="p-5 flex flex-col grow">
         <header className="flex justify-between items-start">
           <h3 className="text-lg font-bold text-white">{food.name}</h3>
-          <span className="font-bold text-brand">&#8377;{food.price}</span>
+          <span className="font-bold text-brand">&#36;{food.price}</span>
         </header>
 
         <p className="text-sm text-neutral-400 mt-2 mb-3">{food.description}</p>
@@ -23,6 +26,7 @@ const FoodCard = ({ food }) => {
           <button
             type="button"
             disabled={!food.available}
+            onClick={()=>addToCart(food)}
             className={`w-full ${food.available ? "btn-primary rounded-xl py-2 " : "btn border border-midnight-border bg-midnight-elevated text-neutral-500"}`}
           >
             {food.available ? "Add to Cart" : "Out of Stock"}
