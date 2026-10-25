@@ -1,10 +1,12 @@
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { useCart } from "../context/CartContext";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { createOrder } from "../services/api";
 
 const CheckoutOrders = () => {
   const { cartItems, removeFromCart, updateQuantity, clearCart } = useCart();
-
+  const navigate = useNavigate();
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const { subtotal, tax, delivery, total } = useMemo(() => {
     const sub = cartItems.reduce(
@@ -21,6 +23,47 @@ const CheckoutOrders = () => {
     };
   }, [cartItems]);
 
+  const [customerDetails, setCustomerDetails] = useState({
+    name: "",
+    phone: "",
+    address: "",
+    notes: "",
+  });
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setCustomerDetails((prev) => ({ ...prev, [name]: value }));
+  };
+
+  const handleCheckout = async (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    const orderPayload = {
+      customerDetails,
+      items: cartItems.map((item) => ({
+        foodId: item.id,
+        name: item.name,
+        quantity: item.quantity,
+        price: item.price,
+      })),
+      total: parseFloat(total),
+      status: "Preparing",
+      createdAt: new Date().toISOString(),
+    };
+
+    try {
+      await createOrder(orderPayload);
+      clearCart();
+      navigate("/"); // Redirect to home or a success page
+    } catch (error) {
+      console.error("Failed to submit order:", error);
+      alert("Failed to submit order. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   if (!cartItems || cartItems.length === 0) {
     return (
       <div className="page-container py-12 flex justify-center">
@@ -29,7 +72,9 @@ const CheckoutOrders = () => {
             Your cart is empty.
           </p>
           <Link to="/">
-            <button className="btn-primary rounded-xl px-3 py-1">Go to Menu</button>
+            <button className="btn-primary rounded-xl px-3 py-1">
+              Go to Menu
+            </button>
           </Link>
         </div>
       </div>
@@ -39,8 +84,9 @@ const CheckoutOrders = () => {
   return (
     <main className="page-container py-8">
       <h1 className="section-title mb-6">Checkout</h1>
+
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-       
+        {/* Cart Items Column */}
         <div className="lg:col-span-2 flex flex-col gap-4">
           {cartItems.map((item) => (
             <div className="panel flex items-center gap-4" key={item.id}>
@@ -80,11 +126,77 @@ const CheckoutOrders = () => {
           ))}
         </div>
 
-       
-        <div className="lg:col-span-1">
+        {/* Form and Summary Column */}
+        <div className="lg:col-span-1 flex flex-col gap-6">
+          <div className="panel">
+            <h2 className="text-xl font-bold text-white mb-4">
+              Delivery Details
+            </h2>
+            <form
+              id="checkout-form"
+              onSubmit={handleCheckout}
+              className="flex flex-col gap-4"
+            >
+              <div>
+                <label className="label" htmlFor="name">
+                  Full Name
+                </label>
+                <input
+                  className="input"
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  value={customerDetails.name}
+                  onChange={handleInputChange}
+                />
+              </div>
+              <div>
+                <label className="label" htmlFor="phone">
+                  Phone Number
+                </label>
+                <input
+                  className="input"
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  required
+                  value={customerDetails.phone}
+                  onChange={handleInputChange}
+                />
+              </div>
+              <div>
+                <label className="label" htmlFor="address">
+                  Delivery Address
+                </label>
+                <textarea
+                  className="input"
+                  id="address"
+                  name="address"
+                  rows="3"
+                  required
+                  value={customerDetails.address}
+                  onChange={handleInputChange}
+                ></textarea>
+              </div>
+              <div>
+                <label className="label" htmlFor="notes">
+                  Order Notes (Optional)
+                </label>
+                <input
+                  className="input"
+                  type="text"
+                  id="notes"
+                  name="notes"
+                  value={customerDetails.notes}
+                  onChange={handleInputChange}
+                />
+              </div>
+            </form>
+          </div>
+
           <div className="panel sticky top-24">
             <h2 className="text-xl font-bold text-white mb-6">Order Summary</h2>
-
             <div className="flex flex-col gap-3 text-sm text-neutral-300 mb-6">
               <div className="flex justify-between">
                 <span>Subtotal</span>
@@ -105,7 +217,14 @@ const CheckoutOrders = () => {
               </div>
             </div>
 
-            <button className="btn-primary w-full py-2 rounded-2xl ">Proceed to Payment</button>
+            <button
+              type="submit"
+              form="checkout-form"
+              disabled={isSubmitting || cartItems.length === 0}
+              className="btn-primary w-full py-2 rounded-2xl"
+            >
+              {isSubmitting ? "Processing..." : "Confirm Order"}
+            </button>
           </div>
         </div>
       </div>

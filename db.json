@@ -699,5 +699,187 @@
       "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Vanilla+Ice+Cream"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "customerDetails": {
+        "name": "Ravi Kumar Kocherla",
+        "phone": "+919014290249",
+        "address": "velamapeta , andhra pradesh\nvelamapeta , andhra pradesh"
+      },
+      "items": [
+        {
+          "id": "106",
+          "restaurantId": "2",
+          "name": "Masala Dosa",
+          "price": 7.99,
+          "category": "Main Course",
+          "description": "Crispy dosa filled with spiced potato masala.",
+          "available": true,
+          "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Masala+Dosa",
+          "quantity": 1
+        },
+        {
+          "id": "107",
+          "restaurantId": "2",
+          "name": "Idli Sambar",
+          "price": 5.49,
+          "category": "Breakfast",
+          "description": "Steamed rice cakes served with lentil sambar and chutney.",
+          "available": true,
+          "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Idli+Sambar",
+          "quantity": 1
+        }
+      ],
+      "orderSummary": {
+        "subtotal": "13.48",
+        "tax": "1.08",
+        "delivery": "4.99",
+        "total": "19.55"
+      },
+      "status": "Preparing",
+      "createdAt": "2026-10-25T04:46:34.412Z",
+      "id": "593bKmBfKQs"
+    },
+    {
+      "customerDetails": {
+        "name": "Ravi Kumar Kocherla",
+        "phone": "+919014290249",
+        "address": "velamapeta , andhra pradesh\nvelamapeta , andhra pradesh"
+      },
+      "items": [
+        {
+          "id": "143",
+          "restaurantId": "9",
+          "name": "Avocado Toast",
+          "price": 7.49,
+          "category": "Breakfast",
+          "description": "Toasted bread topped with avocado and seasoning.",
+          "available": true,
+          "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Avocado+Toast",
+          "quantity": 2
+        }
+      ],
+      "orderSummary": {
+        "subtotal": "14.98",
+        "tax": "1.20",
+        "delivery": "4.99",
+        "total": "21.17"
+      },
+      "status": "Preparing",
+      "createdAt": "2026-10-25T04:48:57.037Z",
+      "id": "BL4GeQGXHNM"
+    },
+    {
+      "customerDetails": {
+        "name": "Ravi Kumar Kocherla",
+        "phone": "+919014290249",
+        "address": "velamapeta , andhra pradesh\nvelamapeta , andhra pradesh"
+      },
+      "items": [
+        {
+          "id": "101",
+          "restaurantId": "1",
+          "name": "Chicken Tikka Masala",
+          "price": 14.99,
+          "category": "Main Course",
+          "description": "Roasted chicken chunks in a spicy, creamy orange curry sauce.",
+          "available": true,
+          "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Chicken+Tikka+Masala",
+          "quantity": 2
+        }
+      ],
+      "orderSummary": {
+        "subtotal": "29.98",
+        "tax": "2.40",
+        "delivery": "4.99",
+        "total": "37.37"
+      },
+      "status": "Preparing",
+      "createdAt": "2026-10-25T04:49:28.800Z",
+      "id": "dfnIXEY8SVs"
+    },
+    {
+      "customer": {
+        "name": "Ravi Kumar Kocherla",
+        "phone": "09014290249",
+        "address": "velamapeta , andhra pradesh\nvelamapeta , andhra pradesh",
+        "notes": ""
+      },
+      "items": [
+        {
+          "id": "101",
+          "name": "Chicken Tikka Masala",
+          "price": 14.99,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 29.98,
+      "deliveryFee": 4.99,
+      "total": 34.97,
+      "status": "Preparing",
+      "createdAt": "2026-10-25T04:53:02.856Z",
+      "id": "x_GMrl6huog"
+    },
+    {
+      "customerDetails": {
+        "name": "Ravi Kumar Kocherla",
+        "phone": "09014290249",
+        "address": "velamapeta , andhra pradesh\nvelamapeta , andhra pradesh",
+        "notes": ""
+      },
+      "items": [
+        {
+          "foodId": "112",
+          "name": "Veg Biryani",
+          "quantity": 2,
+          "price": 10.49
+        }
+      ],
+      "subtotal": 20.98,
+      "deliveryFee": 4.99,
+      "total": 25.97,
+      "status": "Preparing",
+      "createdAt": "2026-10-25T04:54:47.653Z",
+      "id": "9XiQUtCtUOk"
+    },
+    {
+      "customerDetails": {
+        "name": "Ravi Kumar Kocherla",
+        "phone": "09014290249",
+        "address": "velamapeta , andhra pradesh",
+        "notes": ""
+      },
+      "items": [
+        {
+          "foodId": "110",
+          "name": "Filter Coffee",
+          "quantity": 3,
+          "price": 2.49
+        },
+        {
+          "foodId": "118",
+          "name": "Chilli Paneer",
+          "quantity": 1,
+          "price": 9.49
+        },
+        {
+          "foodId": "117",
+          "name": "Schezwan Fried Rice",
+          "quantity": 1,
+          "price": 8.99
+        },
+        {
+          "foodId": "116",
+          "name": "Veg Hakka Noodles",
+          "quantity": 2,
+          "price": 8.49
+        }
+      ],
+      "total": 51.35,
+      "status": "Preparing",
+      "createdAt": "2026-10-25T04:58:48.413Z",
+      "id": "00rWM_cJrzc"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
