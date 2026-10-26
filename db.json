@@ -6,7 +6,7 @@
       "rating": 4.5,
       "category": "Indian",
       "description": "Authentic North Indian curries and tandoori specials.",
-      "imageUrl": "https://placehold.co/600x400/171717/F97316?text=Spice+Garden"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJAAAsuH5PvkM7_GxBS6_RrnnyLvYncZxsZDWh1ZqlfA&s=10"
     },
     {
       "id": "2",
@@ -14,7 +14,7 @@
       "rating": 4.4,
       "category": "South Indian",
       "description": "South Indian favorites including dosas, idlis, vadas, and filter coffee.",
-      "imageUrl": "https://placehold.co/600x400/171717/F97316?text=Dosa+Junction"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyvvrlrSC_mpndyumqD5sY8CAy6MEimi07Ghk0UKXUQ&s=10"
     },
     {
       "id": "3",
@@ -22,7 +22,7 @@
       "rating": 4.7,
       "category": "Biryani",
       "description": "Aromatic biryanis and flavorful rice dishes made with traditional spices.",
-      "imageUrl": "https://placehold.co/600x400/171717/F97316?text=Biryani+Boulevard"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0orTHDYIKwyGyeSGBDNCAbIHhsjMdH7_gpIjFPPGf-Q&s"
     },
     {
       "id": "4",
@@ -30,7 +30,7 @@
       "rating": 4.2,
       "category": "Chinese",
       "description": "Indo-Chinese noodles, fried rice, and sizzling starters.",
-      "imageUrl": "https://placehold.co/600x400/171717/F97316?text=Wok+Express"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGJGb2td5UBkuenAnsw2kN02NrkfSGOVbujPY6DWI0kg&s=10"
     },
     {
       "id": "5",
@@ -38,7 +38,7 @@
       "rating": 4.3,
       "category": "Italian",
       "description": "Freshly baked pizzas, pasta, garlic bread, and Italian-inspired meals.",
-      "imageUrl": "https://placehold.co/600x400/171717/F97316?text=The+Pizza+Oven"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhtMBmuf8j0DF6OL5RpEKjidMB1k5p3d_2iGg26DEBTw&s=10"
     },
     {
       "id": "6",
@@ -46,7 +46,7 @@
       "rating": 4.1,
       "category": "Fast Food",
       "description": "Juicy burgers, crispy fries, wraps, and quick comfort food.",
-      "imageUrl": "https://placehold.co/600x400/171717/F97316?text=Burger+Barn"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHHNQCZI3Y9hGj4HdXXvO_49NMdTJiDJkaiQ08rye7Gw&s=10"
     },
     {
       "id": "7",
@@ -54,7 +54,7 @@
       "rating": 4.4,
       "category": "Punjabi",
       "description": "Hearty Punjabi curries, tandoori breads, and traditional thali meals.",
-      "imageUrl": "https://placehold.co/600x400/171717/F97316?text=Punjabi+Dhaba"
+      "imageUrl": "https://b.zmtcdn.com/data/pictures/2/19854862/91e6d17b7a5315f4e7e9666e0c7acf9a.jpg?fit=around|960:500&crop=960:500;*,*"
     },
     {
       "id": "8",
@@ -62,7 +62,7 @@
       "rating": 4.5,
       "category": "Street Food",
       "description": "Indian street-food classics, tangy chaats, and crispy snacks.",
-      "imageUrl": "https://placehold.co/600x400/171717/F97316?text=Chaat+Chowk"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9VoZln0OR5qRCCluSfV5PLWYGaM8Yaqt7xoQcGFXZIg&s=10"
     },
     {
       "id": "9",
@@ -70,7 +70,7 @@
       "rating": 4.3,
       "category": "Healthy Food",
       "description": "Fresh salads, grain bowls, and balanced vegetarian meals.",
-      "imageUrl": "https://placehold.co/600x400/171717/F97316?text=Green+Bowl+Bistro"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTZA3p_ykxd2B9VWXDmaXc7nyRKqsGwI7xk9i8gnnVFQ&s=10"
     },
     {
       "id": "10",
@@ -78,7 +78,7 @@
       "rating": 4.4,
       "category": "Seafood",
       "description": "Coastal-inspired curries, seafood specialties, and fragrant rice.",
-      "imageUrl": "https://placehold.co/600x400/171717/F97316?text=Coastal+Curry"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFPnGZ2uNNyROojrmgT4yQC3-dz5os-Rs-li0Q817YtA&s=10"
     },
     {
       "id": "11",
@@ -86,7 +86,7 @@
       "rating": 4.2,
       "category": "Cafe",
       "description": "Coffee, tea, baked treats, sandwiches, and light cafe meals.",
-      "imageUrl": "https://placehold.co/600x400/171717/F97316?text=Daily+Dose+Cafe"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1I09RPxctWt0SPyFb9qLJXzNYYvkmbaktyWmUvKzVUw&s=10"
     },
     {
       "id": "12",
@@ -94,7 +94,7 @@
       "rating": 4.6,
       "category": "Desserts",
       "description": "Cakes, pastries, brownies, and sweet treats for every occasion.",
-      "imageUrl": "https://placehold.co/600x400/171717/F97316?text=The+Dessert+Room"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFIlx8_Q5ldYnGCCNB7rHOylfCGu_A3hNe4phpGaXaeQ&s"
     }
   ],
   "foods": [
@@ -106,7 +106,7 @@
       "category": "Main Course",
       "description": "Roasted chicken chunks in a spicy, creamy orange curry sauce.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Chicken+Tikka+Masala"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrqySH5wOuSgPZqsX75Adu1n7LX9YHMbSTwSV41ZZfpA&s=10"
     },
     {
       "id": "102",
@@ -116,7 +116,7 @@
       "category": "Main Course",
       "description": "Paneer cubes simmered in a rich tomato and butter gravy.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Paneer+Butter+Masala"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh3rB9wHytwKJ4vvy5Z6OKfujmx2XNHnNzd51ayvzgNw&s=10"
     },
     {
       "id": "103",
@@ -126,7 +126,7 @@
       "category": "Starters",
       "description": "Yogurt-marinated chicken roasted with tandoori spices.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Tandoori+Chicken"
+      "imageUrl": "https://ministryofcurry.com/wp-content/uploads/2016/07/final-2.jpg"
     },
     {
       "id": "104",
@@ -136,7 +136,7 @@
       "category": "Bread",
       "description": "Soft naan bread topped with garlic and herbs.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Garlic+Naan"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRanlkycCxkZv5vA-ph0V1eARw0leMZcgs18OQiADlT2A&s=10"
     },
     {
       "id": "105",
@@ -146,7 +146,7 @@
       "category": "Main Course",
       "description": "Slow-cooked black lentils in a creamy buttery sauce.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Dal+Makhani"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2zmZJgk1OAb40s6yk38Yc7O2PadDGLg9O4qJCFM62g&s=10"
     },
     {
       "id": "106",
@@ -156,7 +156,7 @@
       "category": "Main Course",
       "description": "Crispy dosa filled with spiced potato masala.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Masala+Dosa"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEupILmEQb5gTV-3f3RtAU-meBMAJhfYGRLbYJJq9zLA&s=10"
     },
     {
       "id": "107",
@@ -166,7 +166,7 @@
       "category": "Breakfast",
       "description": "Steamed rice cakes served with lentil sambar and chutney.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Idli+Sambar"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL8ihMfyoPRd7aHVmW6wyfq1dzCUIa6yFIXB4PCmCcyg&s=10"
     },
     {
       "id": "108",
@@ -176,7 +176,7 @@
       "category": "Snacks",
       "description": "Crispy lentil doughnuts with a soft center.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Medu+Vada"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc8_lJQu3SOfLGKwBaRc1bO19aSdzAIbr6ixOUwQb8Cw&s=10"
     },
     {
       "id": "109",
@@ -186,7 +186,7 @@
       "category": "Main Course",
       "description": "Crispy dosa spread with spicy chutney and potato filling.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Mysore+Dosa"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc8_lJQu3SOfLGKwBaRc1bO19aSdzAIbr6ixOUwQb8Cw&s=10"
     },
     {
       "id": "110",
@@ -196,7 +196,7 @@
       "category": "Beverages",
       "description": "South Indian filter coffee brewed with milk.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Filter+Coffee"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdIcBYmJYc1JCpKsx2nXxZvevb627bO_8QpkgDKxQ7zw&s=10"
     },
     {
       "id": "111",
@@ -206,7 +206,7 @@
       "category": "Main Course",
       "description": "Fragrant basmati rice and spiced chicken cooked dum-style.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Chicken+Dum+Biryani"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIHwd2rfnw-bvmJ7i__TTBrq8KhtgfNoRuBNIQ27Y1Zg&s=10"
     },
     {
       "id": "112",
@@ -216,7 +216,7 @@
       "category": "Main Course",
       "description": "Aromatic basmati rice cooked with vegetables and spices.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Veg+Biryani"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcZcHzmdrFHOZugKMFq8JkqULQvI-X0ViA6rfL4bv6Aw&s=10"
     },
     {
       "id": "113",
@@ -226,7 +226,7 @@
       "category": "Main Course",
       "description": "Slow-cooked mutton layered with fragrant spiced rice.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Mutton+Biryani"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwzVGT0vf2DipmVSK5OsdM924Cev6ViIaxGFJfFeYU9g&s=10"
     },
     {
       "id": "114",
@@ -236,7 +236,7 @@
       "category": "Main Course",
       "description": "Basmati rice cooked with paneer, herbs, and biryani spices.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Paneer+Biryani"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS-L6wwRAh22KoJ0kS0TAWdu1nbS1zrI_p_kYyK0zfIA&s=10"
     },
     {
       "id": "115",
@@ -246,7 +246,7 @@
       "category": "Desserts",
       "description": "Hyderabadi bread pudding flavored with cardamom and saffron.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Double+Ka+Meetha"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF26OirSjYJLG3gN9wu0C099RWHmLIi_Db4gX4B8xLFA&s=10"
     },
     {
       "id": "116",
@@ -256,7 +256,7 @@
       "category": "Main Course",
       "description": "Stir-fried noodles with vegetables and savory sauces.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Veg+Hakka+Noodles"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiCRXm-H4npH76M7Qz_MT2__mimyO9VnQm0OLDDcpKMw&s=10"
     },
     {
       "id": "117",
@@ -266,7 +266,7 @@
       "category": "Main Course",
       "description": "Fried rice tossed with spicy Schezwan sauce and vegetables.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Schezwan+Fried+Rice"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPh1S9Hd0-UNvlNTR26uLPJS_pbA0T48WOmay91t3C3w&s=10"
     },
     {
       "id": "118",
@@ -276,7 +276,7 @@
       "category": "Starters",
       "description": "Paneer tossed with peppers, onions, and spicy Indo-Chinese sauce.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Chilli+Paneer"
+      "imageUrl": "https://www.cookclickndevour.com/wp-content/uploads/2016/05/chilli-paneer-recipe-1.jpg"
     },
     {
       "id": "119",
@@ -286,7 +286,7 @@
       "category": "Starters",
       "description": "Crispy cauliflower tossed in tangy Indo-Chinese sauce.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Gobi+Manchurian"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7Bqqlx-Uve2dyvno64RzZurN_M5o3pXMkuTu5WukTTQ&s=10"
     },
     {
       "id": "120",
@@ -296,7 +296,7 @@
       "category": "Snacks",
       "description": "Crispy rolls filled with seasoned vegetables.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Spring+Rolls"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt9ORmklQl-wh0tmdI6XVQXbtA2ue4btYEa_E3s9whCg&s=10"
     },
     {
       "id": "121",
@@ -306,7 +306,7 @@
       "category": "Main Course",
       "description": "Pizza topped with tomato sauce, mozzarella, and basil.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Margherita+Pizza"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUYOQ87zZVtrmvD-KN7AStFOORACZAsPEGme0dNS1fWg&s=10"
     },
     {
       "id": "122",
@@ -316,7 +316,7 @@
       "category": "Main Course",
       "description": "Pizza loaded with onions, peppers, tomatoes, and cheese.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Farmhouse+Pizza"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbb3v9GophQ_21p09NrKud7x1PP7f0EdzIrPhH2vBqQw&s=10"
     },
     {
       "id": "123",
@@ -326,7 +326,7 @@
       "category": "Main Course",
       "description": "Pasta coated in a creamy white sauce.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=White+Sauce+Pasta"
+      "imageUrl": "https://www.indianhealthyrecipes.com/wp-content/uploads/2024/04/white-sauce-pasta.jpg"
     },
     {
       "id": "124",
@@ -336,7 +336,7 @@
       "category": "Main Course",
       "description": "Pasta tossed in a tangy tomato-based sauce.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Red+Sauce+Pasta"
+      "imageUrl": ""
     },
     {
       "id": "125",
@@ -346,7 +346,7 @@
       "category": "Sides",
       "description": "Toasted bread seasoned with garlic, herbs, and butter.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Garlic+Bread"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7j-IbzioY6N6W3Ntj7R9sUOrKGEYpYvtz5tMQymqhYg&s=10"
     },
     {
       "id": "126",
@@ -356,7 +356,7 @@
       "category": "Main Course",
       "description": "Vegetable patty served in a bun with lettuce and sauce.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Veg+Burger"
+      "imageUrl": "https://static.wixstatic.com/media/91e241_c2c5919401694f3a8962262eee6ced6f~mv2.png/v1/fill/w_980,h_735,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/91e241_c2c5919401694f3a8962262eee6ced6f~mv2.png"
     },
     {
       "id": "127",
@@ -366,7 +366,7 @@
       "category": "Main Course",
       "description": "Crispy chicken fillet with lettuce and house sauce in a bun.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Chicken+Burger"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFtecxP7lumM2Gssy0Uf1MGMQyBvzqweFAq1GBjK8ffw&s=10"
     },
     {
       "id": "128",
@@ -376,7 +376,7 @@
       "category": "Sides",
       "description": "Golden fried potato sticks seasoned with salt.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=French+Fries"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA3qmw11ZlukQ4oxq6RwzvEswlQSaSDH85wn-xuS9QJw&s=10"
     },
     {
       "id": "129",
@@ -386,7 +386,7 @@
       "category": "Wraps",
       "description": "Spiced paneer and vegetables wrapped in a soft flatbread.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Paneer+Wrap"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkyY3HuTPLnhT3QbwNws8GkH1dREWOkn_TFIVaTM0gfw&s=10"
     },
     {
       "id": "130",
@@ -396,7 +396,7 @@
       "category": "Beverages",
       "description": "Cold milkshake blended with chocolate and ice cream.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Chocolate+Milkshake"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp2ewdyDAhgZQp1t2OzoYYw0pWO0x7gsYq_tlYjJ2T_Q&s=10"
     },
     {
       "id": "131",
@@ -406,7 +406,7 @@
       "category": "Main Course",
       "description": "Spicy chickpea curry served with fluffy fried bread.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Chole+Bhature"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL7nlgFNdr8m37kfTVlLwz85hmfnBsxc67K3pMDAUoRA&s=10"
     },
     {
       "id": "132",
@@ -416,7 +416,7 @@
       "category": "Main Course",
       "description": "Stuffed Punjabi flatbread served with chickpeas and chutney.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Amritsari+Kulcha"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU7ef95REaE-e2aMXfNCWPN8WaKcbkRpypQdvjDdZp7w&s=10"
     },
     {
       "id": "133",
@@ -426,7 +426,7 @@
       "category": "Main Course",
       "description": "Mustard greens cooked with spices and served Punjabi-style.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Sarson+Ka+Saag"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfRajV5UcBN3-fgcilCBNGjhdHg0xtVY1i_FhAOYNPVg&s=10"
     },
     {
       "id": "134",
@@ -436,7 +436,7 @@
       "category": "Breakfast",
       "description": "Flatbread stuffed with spiced mashed potatoes.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Aloo+Paratha"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO1RLeojCf_Y1gb_BayxTzKOqPq8gsS-3MpIKcb5d0JQ&s=10"
     },
     {
       "id": "135",
@@ -446,7 +446,7 @@
       "category": "Beverages",
       "description": "Refreshing yogurt drink served sweet or salted.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Lassi"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp_UoQx3EvedjE1Twx9zcVyO9fL0AXUWS0dnCrCsHSdg&s=10"
     },
     {
       "id": "136",
@@ -456,7 +456,7 @@
       "category": "Chaat",
       "description": "Crispy puris filled with potatoes and tangy spiced water.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Pani+Puri"
+      "imageUrl": ""
     },
     {
       "id": "137",
@@ -466,7 +466,7 @@
       "category": "Chaat",
       "description": "Crispy papdi topped with yogurt, chutneys, spices, and sev.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Dahi+Papdi+Chaat"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8OvWFozPdAgPRyamS2fsUFefCMMHXfjDbFij4-e7m8g&s=10"
     },
     {
       "id": "138",
@@ -476,7 +476,7 @@
       "category": "Chaat",
       "description": "Large crispy kachori filled with potatoes, lentils, yogurt, and chutneys.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Raj+Kachori"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSD61yfsln3P3du3CSOEYk35Fi-SaQz7T9uCr_-nT1og&s=10"
     },
     {
       "id": "139",
@@ -486,7 +486,7 @@
       "category": "Chaat",
       "description": "Crispy potato patties topped with chutneys and chaat spices.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Aloo+Tikki+Chaat"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnnyT_oEpw6gAnTcYuO_RM1SAIWshgxV1tFvtp7Fb5yA&s=10"
     },
     {
       "id": "140",
@@ -496,7 +496,7 @@
       "category": "Chaat",
       "description": "Puffed rice mixed with vegetables, chutneys, and crunchy sev.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Bhel+Puri"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxZtqkxCyUQ1dTc3HgWltTWEAW6RdeqYv_aXbwBd1AZg&s=10"
     },
     {
       "id": "141",
@@ -506,7 +506,7 @@
       "category": "Bowls",
       "description": "Quinoa served with fresh vegetables and a light dressing.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Quinoa+Veg+Bowl"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ6J_DAAbk8bztn1L2OU2r9578biQuFf5_0P-HbNHV0uA9oevmrihJRGM&s=10"
     },
     {
       "id": "142",
@@ -516,7 +516,7 @@
       "category": "Salads",
       "description": "Grilled paneer served over crisp greens and fresh vegetables.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Paneer+Salad"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3bU0W2yLhfl5vEfaIQoGQPp5PAFAkwhj1BPbU8YMbcw&s=10"
     },
     {
       "id": "143",
@@ -526,7 +526,7 @@
       "category": "Breakfast",
       "description": "Toasted bread topped with avocado and seasoning.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Avocado+Toast"
+      "imageUrl": ""
     },
     {
       "id": "144",
@@ -536,7 +536,7 @@
       "category": "Bowls",
       "description": "Yogurt topped with fresh fruit and crunchy granola.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Fruit+Yogurt+Bowl"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkWXYHKTh-fq_xYLuMIZuPlVi97NUADTTrtdsYUR_nCQ&s=10"
     },
     {
       "id": "145",
@@ -546,7 +546,7 @@
       "category": "Beverages",
       "description": "Refreshing lime drink served chilled.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Fresh+Lime+Water"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRisNxHrGmMfYJTbFjUHcsi60c-AXgZ1r2uN2Q33PF-RQ&s=10"
     },
     {
       "id": "146",
@@ -556,7 +556,7 @@
       "category": "Main Course",
       "description": "Fish cooked in a tangy, spicy coastal curry.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Andhra+Fish+Curry"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyB_Ud_w0WLn7qdm8fi0WzfdOPwackTgfm43wTSEZAwQ&s=10"
     },
     {
       "id": "147",
@@ -566,7 +566,7 @@
       "category": "Main Course",
       "description": "Prawns simmered in a rich onion, tomato, and spice gravy.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Prawn+Masala"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHcfxSk64MpCa3yQiHwSUkF38iAJyPg6Zp_nqI3sYcdQ&s=10"
     },
     {
       "id": "148",
@@ -576,7 +576,7 @@
       "category": "Starters",
       "description": "Fish marinated with regional spices and pan-fried until crisp.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Fish+Fry"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_qW9OZ60M28BAyzahjDUwIYa_eosSGRMORYbxwXFAvg&s=10"
     },
     {
       "id": "149",
@@ -586,7 +586,7 @@
       "category": "Rice",
       "description": "Rice flavored with coconut, curry leaves, and mild spices.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Coconut+Rice"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRordNrNOal0uni1wgzduC1s6FTLKh_Zwdliga4wgUmDg&s=10"
     },
     {
       "id": "150",
@@ -596,7 +596,7 @@
       "category": "Thali",
       "description": "A traditional meal served with rice, curries, and accompaniments.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Veg+Meals"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTansyqF5T6AEAFtQCEd4qZtJN_FTbMrIPoHB3O4ZJ4DA&s=10"
     },
     {
       "id": "151",
@@ -606,7 +606,7 @@
       "category": "Coffee",
       "description": "Espresso topped with steamed milk and foam.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Cappuccino"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ8u4wJqELKs0cyt4-dB3T8vwbRepL38GkrYzRv1URgQ&s=10"
     },
     {
       "id": "152",
@@ -616,7 +616,7 @@
       "category": "Coffee",
       "description": "Chilled coffee blended with milk and ice.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Cold+Coffee"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmMqkmnLEZTK8bQ9XAfvUqR834bCGnAig5wtwbeVl_xA&s=10"
     },
     {
       "id": "153",
@@ -626,7 +626,7 @@
       "category": "Snacks",
       "description": "Layered sandwich with vegetables, cheese, and sauces.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Veg+Club+Sandwich"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGA4lnMB3a2I2sd5gESE4Y_SdCKzH_oZIBcwbStG_ggg&s=10"
     },
     {
       "id": "154",
@@ -636,7 +636,7 @@
       "category": "Bakery",
       "description": "Soft baked muffin filled with blueberries.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Blueberry+Muffin"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTin3km9jeG8jZ_wVB4eswDJKEfnZRmJ5cu48bTRboJoA&s=10"
     },
     {
       "id": "155",
@@ -646,7 +646,7 @@
       "category": "Bakery",
       "description": "Flaky pastry filled with chocolate.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Chocolate+Croissant"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSw1MXczadEgMhPC1BbHu_2HgS_Jq5bZB7vhUi5JDJSw&s=10"
     },
     {
       "id": "156",
@@ -656,7 +656,7 @@
       "category": "Desserts",
       "description": "Rich chocolate baked dessert with a fudgy texture.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Chocolate+Brownie"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZBCIv-n5fb0CPX21Wvfqt67lmzrxYG6C2brB6JzeuVg&s=10"
     },
     {
       "id": "157",
@@ -666,7 +666,7 @@
       "category": "Desserts",
       "description": "Moist red velvet cake layered with cream cheese frosting.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Red+Velvet+Cake"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRH_raFP0Ces5GOPQbTlCARy1bmBfcLyYGDKjVc4sN6Q&s=10"
     },
     {
       "id": "158",
@@ -676,7 +676,7 @@
       "category": "Desserts",
       "description": "Soft milk-solid dumplings soaked in sugar syrup.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Gulab+Jamun"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLABuhWCGpAlL4ueoPaFVdYf8PGMasds2zNlsc7s_Qkw&s=10"
     },
     {
       "id": "159",
@@ -686,7 +686,7 @@
       "category": "Desserts",
       "description": "Soft cheese patties served in sweetened cardamom milk.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Rasmalai"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNavBOzxPq6uWJRpi4ZjG4J123LS4Et6wgZdc-DQ9MSQ&s=10"
     },
     {
       "id": "160",
@@ -696,50 +696,8 @@
       "category": "Desserts",
       "description": "Classic creamy vanilla-flavored frozen dessert.",
       "available": true,
-      "imageUrl": "https://placehold.co/400x400/171717/F97316?text=Vanilla+Ice+Cream"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxMe_zTTOxQ90wi1o6_uBEQGoG6K10G8SCOcqvZjGodg&s=10"
     }
   ],
-  "orders": [
-    {
-      "customerDetails": {
-        "name": "Ravi Kumar Kocherla",
-        "phone": "09014290249",
-        "address": "velamapeta , andhra pradesh",
-        "notes": ""
-      },
-      "items": [
-        {
-          "foodId": "101",
-          "name": "Chicken Tikka Masala",
-          "quantity": 3,
-          "price": 14.99
-        }
-      ],
-      "total": 53.56,
-      "status": "Delivered",
-      "createdAt": "2026-10-26T05:35:32.304Z",
-      "id": "QlW8jT7a2R0"
-    },
-    {
-      "customerDetails": {
-        "name": "Ravi Kumar Kocherla",
-        "phone": "09014290249",
-        "address": "velamapeta , andhra pradesh",
-        "notes": ""
-      },
-      "items": [
-        {
-          "foodId": "101",
-          "name": "Chicken Tikka Masala",
-          "quantity": 1,
-          "price": 14.99
-        }
-      ],
-      "total": 21.18,
-      "status": "Preparing",
-      "createdAt": "2026-10-26T05:35:52.497Z",
-      "id": "F9o9t-0h6sM"
-    }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  "orders": []
 }
