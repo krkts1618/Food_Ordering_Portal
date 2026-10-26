@@ -86,7 +86,7 @@ const CheckoutOrders = () => {
       <h1 className="section-title mb-6">Checkout</h1>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-        {/* Cart Items Column */}
+       
         <div className="lg:col-span-2 flex flex-col gap-4">
           {cartItems.map((item) => (
             <div className="panel flex items-center gap-4" key={item.id}>
@@ -126,7 +126,7 @@ const CheckoutOrders = () => {
           ))}
         </div>
 
-        {/* Form and Summary Column */}
+       
         <div className="lg:col-span-1 flex flex-col gap-6">
           <div className="panel">
             <h2 className="text-xl font-bold text-white mb-4">
